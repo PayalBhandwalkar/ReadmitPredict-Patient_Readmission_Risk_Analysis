@@ -1,0 +1,1001 @@
+patient_id,age,gender,race,admission_date,discharge_date,primary_diagnosis,num_procedures,num_medications,comorbidities_count,prior_visits,discharge_disposition,insurance_type,followup_required,hospital_unit,readmitted_within_30d,discharge_notes
+PID00001,71,Female,Asian,2023-11-24,2023-12-01,CHF,1,7,4,4,AMA,Medicare,True,Oncology,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00002,34,Male,White,2023-02-27,2023-03-01,Pneumonia,5,12,0,10,Home,Medicaid,False,Cardiology,1,Patient admitted for pneumonia. Condition critical. No follow-up scheduled.
+PID00003,80,Male,White,2023-01-13,2023-01-22,Diabetes,0,17,2,2,Home,Self-pay,False,ER,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00004,40,Male,Asian,2023-05-21,2023-05-25,Hypertension,1,17,5,9,Rehab,Medicaid,True,ICU,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00005,43,Male,Asian,2023-05-06,2023-05-09,COVID-19,4,10,4,4,Transferred,Private,False,ER,0,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00006,22,Male,White,2023-04-25,2023-04-30,COVID-19,3,19,1,6,Home,Medicare,True,Cardiology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00007,41,Female,Hispanic,2023-03-13,2023-03-16,Cancer,4,14,3,4,Expired,Private,True,ER,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00008,72,Male,Other,2023-02-22,2023-02-24,COVID-19,3,11,4,4,Transferred,Self-pay,True,Surgery,1,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00009,21,Male,Other,2023-12-13,2023-12-14,COVID-19,4,2,3,8,Transferred,Medicaid,True,Cardiology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00010,49,Female,Asian,2023-10-07,2023-10-10,CHF,2,18,5,2,Expired,Private,False,ER,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00011,57,Male,Other,2023-02-14,2023-02-19,Kidney Disease,1,7,1,5,AMA,Private,True,ICU,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00012,21,Female,White,2023-10-30,2023-11-09,Hypertension,3,12,2,0,Expired,Private,True,ER,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00013,83,Female,White,2023-08-05,2023-08-15,COPD,0,2,2,9,Expired,Private,True,ICU,0,Patient admitted for copd. Condition critical. Follow-up required.
+PID00014,79,Female,Asian,2023-01-17,2023-01-22,Sepsis,1,20,1,4,AMA,Self-pay,True,Surgery,1,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00015,40,Male,Asian,2023-01-16,2023-01-24,Kidney Disease,0,18,3,7,AMA,Self-pay,False,ER,0,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00016,52,Male,Asian,2023-02-17,2023-02-19,Pneumonia,1,6,5,4,AMA,Medicaid,False,Surgery,0,Patient admitted for pneumonia. Condition critical. No follow-up scheduled.
+PID00017,77,Male,Hispanic,2023-04-22,2023-04-30,Pneumonia,1,10,4,8,AMA,Medicaid,False,Cardiology,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00018,41,Female,Other,2023-04-30,2023-05-05,COVID-19,4,20,1,10,AMA,Medicare,True,ICU,1,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00019,68,Male,Asian,2023-09-16,2023-09-23,COPD,3,15,0,5,Expired,Self-pay,False,Cardiology,0,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00020,78,Female,Black,2023-11-05,2023-11-10,Diabetes,3,5,3,7,Rehab,Private,False,ICU,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00021,61,Male,Black,2023-01-14,2023-01-23,Stroke,1,20,2,9,Rehab,Private,True,Surgery,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00022,79,Female,White,2023-10-15,2023-10-24,Kidney Disease,2,3,1,7,Home,Medicare,False,Oncology,0,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00023,34,Male,Other,2023-04-12,2023-04-20,Kidney Disease,2,5,2,2,Rehab,Private,True,ER,0,Patient admitted for kidney disease. Condition critical. Follow-up required.
+PID00024,81,Male,Asian,2023-11-29,2023-12-07,Asthma,0,8,3,6,Rehab,Medicare,False,Surgery,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00025,81,Male,Black,2023-12-26,2023-12-28,Hypertension,0,8,2,6,Expired,Medicaid,False,ICU,1,Patient admitted for hypertension. Condition critical. No follow-up scheduled.
+PID00026,66,Female,Other,2023-10-07,2023-10-17,Cancer,4,8,1,9,AMA,Self-pay,False,ICU,0,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00027,81,Female,White,2023-08-03,2023-08-04,Hypertension,1,12,3,5,AMA,Medicare,False,ICU,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00028,70,Male,Hispanic,2023-04-23,2023-04-30,Stroke,0,8,0,6,Expired,Private,True,ICU,0,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00029,74,Male,Other,2023-08-18,2023-08-24,Pneumonia,0,11,1,1,Rehab,Medicare,True,ER,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00030,83,Female,Other,2023-10-29,2023-11-08,Pneumonia,5,14,4,8,Expired,Medicaid,False,Cardiology,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00031,22,Female,Hispanic,2023-05-23,2023-05-28,Pneumonia,1,8,5,9,Home,Private,True,Oncology,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00032,70,Female,Other,2023-01-04,2023-01-05,Asthma,4,10,1,9,AMA,Medicaid,False,ER,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00033,26,Male,White,2023-03-23,2023-03-25,Pneumonia,0,7,3,0,Transferred,Medicaid,False,ICU,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00034,40,Female,White,2023-12-24,2023-12-28,Stroke,4,17,5,0,Home,Medicare,False,ER,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00035,58,Male,Hispanic,2023-08-05,2023-08-15,Heart Attack,3,4,1,2,Home,Medicaid,False,Surgery,0,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00036,37,Female,Asian,2023-06-24,2023-07-04,COPD,4,13,0,2,Expired,Private,False,ICU,0,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00037,23,Male,Black,2023-05-23,2023-05-24,Cancer,2,4,0,0,Rehab,Medicaid,False,Oncology,0,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00038,79,Female,Asian,2023-03-21,2023-03-26,Stroke,2,5,4,6,AMA,Medicaid,True,ICU,0,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00039,33,Female,Other,2023-04-21,2023-05-01,COVID-19,4,4,2,3,Transferred,Medicare,True,Oncology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00040,28,Female,Black,2023-06-22,2023-06-23,Heart Attack,2,18,5,9,Home,Medicaid,False,Oncology,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00041,72,Female,Hispanic,2023-02-22,2023-02-25,Cancer,3,6,3,1,Transferred,Self-pay,True,Cardiology,0,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00042,21,Female,Hispanic,2023-02-17,2023-02-25,Stroke,1,2,3,9,Rehab,Medicare,False,Cardiology,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00043,79,Male,Black,2023-07-14,2023-07-23,Heart Attack,2,11,2,4,Rehab,Medicare,True,ER,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00044,63,Female,White,2023-02-19,2023-02-27,Pneumonia,2,14,0,5,Transferred,Private,True,ER,0,Patient admitted for pneumonia. Condition critical. Follow-up required.
+PID00045,27,Female,Black,2023-07-03,2023-07-08,COPD,4,5,0,8,AMA,Private,True,Oncology,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00046,66,Female,Other,2023-06-26,2023-06-29,Kidney Disease,3,6,1,3,Rehab,Private,False,ICU,1,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00047,54,Male,White,2023-11-06,2023-11-16,Hypertension,1,10,4,1,Transferred,Private,True,Surgery,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00048,55,Female,Hispanic,2023-05-16,2023-05-23,Sepsis,4,8,5,4,Home,Self-pay,False,Surgery,1,Patient admitted for sepsis. Condition critical. No follow-up scheduled.
+PID00049,69,Male,Black,2023-01-23,2023-01-31,COPD,4,14,4,2,Transferred,Medicare,False,ICU,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00050,23,Female,Asian,2023-08-24,2023-08-26,Kidney Disease,5,3,4,1,Transferred,Medicaid,False,ICU,1,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00051,21,Female,Asian,2023-10-02,2023-10-10,Diabetes,3,12,1,0,Expired,Private,True,Cardiology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00052,25,Male,Other,2023-03-05,2023-03-11,Stroke,1,16,4,9,Rehab,Private,True,Surgery,1,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00053,73,Female,Asian,2023-07-13,2023-07-20,Diabetes,3,17,2,1,AMA,Private,True,Oncology,0,Patient admitted for diabetes. Condition critical. Follow-up required.
+PID00054,23,Male,Black,2023-02-10,2023-02-16,Kidney Disease,1,1,1,5,AMA,Medicaid,False,ER,0,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00055,73,Male,Black,2023-10-10,2023-10-16,COPD,3,10,2,7,Expired,Private,False,Cardiology,0,Patient admitted for copd. Condition critical. No follow-up scheduled.
+PID00056,82,Female,Asian,2023-05-31,2023-06-02,Stroke,4,10,1,2,AMA,Medicaid,True,Surgery,0,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00057,37,Male,Black,2023-11-18,2023-11-21,COVID-19,4,2,4,10,Transferred,Medicare,False,ICU,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00058,63,Female,Other,2023-11-13,2023-11-19,Sepsis,0,9,2,8,Expired,Medicare,True,Surgery,0,Patient admitted for sepsis. Condition critical. Follow-up required.
+PID00059,53,Female,White,2023-07-05,2023-07-12,Pneumonia,2,13,2,8,Home,Medicare,True,Oncology,0,Patient admitted for pneumonia. Condition critical. Follow-up required.
+PID00060,81,Male,Other,2023-10-23,2023-10-31,Stroke,5,16,2,1,Rehab,Self-pay,True,Cardiology,1,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00061,33,Male,Other,2023-04-09,2023-04-14,COVID-19,3,18,1,7,Rehab,Medicaid,True,ICU,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00062,67,Male,Black,2023-12-27,2024-01-03,Stroke,5,19,3,9,Rehab,Private,False,Oncology,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00063,34,Male,White,2023-02-05,2023-02-14,COPD,0,12,4,10,Transferred,Private,True,ER,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00064,81,Female,Black,2023-01-24,2023-01-25,COVID-19,2,8,2,4,Home,Private,True,Cardiology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00065,59,Female,Hispanic,2023-12-05,2023-12-13,COPD,3,17,5,3,Expired,Private,True,Oncology,1,Patient admitted for copd. Condition stable. Follow-up required.
+PID00066,72,Male,Black,2023-04-27,2023-04-29,Heart Attack,1,15,3,9,Expired,Self-pay,True,Oncology,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00067,43,Female,Black,2023-05-29,2023-06-04,Kidney Disease,2,10,5,4,Rehab,Private,True,ICU,1,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00068,45,Female,Black,2023-02-10,2023-02-15,CHF,4,15,4,3,Home,Self-pay,True,ER,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00069,79,Female,White,2023-04-30,2023-05-06,Stroke,0,15,4,7,Home,Medicaid,True,Oncology,1,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00070,60,Female,Black,2023-02-21,2023-02-23,Hypertension,2,7,2,3,Home,Medicare,False,Cardiology,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00071,48,Male,White,2023-07-14,2023-07-21,Stroke,2,13,2,9,AMA,Private,False,Oncology,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00072,34,Male,Asian,2023-05-23,2023-06-01,Kidney Disease,4,17,1,5,AMA,Medicare,False,Surgery,1,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00073,64,Female,Hispanic,2023-08-21,2023-08-22,Cancer,3,9,3,1,Rehab,Medicaid,False,Cardiology,1,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00074,84,Male,White,2023-11-22,2023-12-01,Diabetes,1,8,3,4,Home,Medicaid,True,Cardiology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00075,28,Male,Asian,2023-07-06,2023-07-14,Heart Attack,4,20,2,5,Home,Private,False,Oncology,0,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00076,20,Male,White,2023-03-25,2023-04-01,Pneumonia,1,18,4,4,Expired,Medicaid,False,ICU,1,Patient admitted for pneumonia. Condition critical. No follow-up scheduled.
+PID00077,27,Female,White,2023-07-09,2023-07-10,COVID-19,3,13,2,1,Expired,Medicare,False,Cardiology,0,Patient admitted for covid-19. Condition critical. No follow-up scheduled.
+PID00078,82,Female,Hispanic,2023-07-01,2023-07-05,CHF,2,16,4,6,Rehab,Private,True,Surgery,1,Patient admitted for chf. Condition stable. Follow-up required.
+PID00079,30,Female,Other,2023-04-18,2023-04-27,Sepsis,1,9,4,3,Home,Self-pay,False,ICU,1,Patient admitted for sepsis. Condition critical. No follow-up scheduled.
+PID00080,27,Male,Other,2023-12-10,2023-12-16,Sepsis,0,12,2,7,Rehab,Private,False,ICU,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00081,54,Female,White,2023-05-17,2023-05-27,Sepsis,0,12,0,6,Expired,Medicare,True,ICU,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00082,54,Female,Black,2023-12-26,2024-01-03,COPD,4,6,3,6,Expired,Private,False,Cardiology,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00083,52,Male,Asian,2023-12-16,2023-12-24,Sepsis,3,19,5,8,AMA,Private,True,ICU,1,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00084,24,Female,Black,2023-11-28,2023-11-29,Pneumonia,4,7,4,0,Rehab,Medicare,False,Oncology,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00085,60,Female,Black,2023-02-06,2023-02-10,Heart Attack,4,3,4,9,Rehab,Private,True,ICU,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00086,47,Male,White,2023-11-08,2023-11-13,Diabetes,5,16,0,5,Home,Private,False,Surgery,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00087,26,Male,White,2023-11-22,2023-12-01,Sepsis,4,18,5,5,Home,Medicare,False,ER,0,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00088,31,Male,White,2023-03-29,2023-04-01,Stroke,5,16,1,5,AMA,Medicaid,False,Surgery,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00089,53,Female,White,2023-10-01,2023-10-06,Stroke,0,7,0,5,Transferred,Medicare,True,Cardiology,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00090,52,Female,Other,2023-05-06,2023-05-14,COPD,0,4,5,9,Transferred,Private,False,ICU,1,Patient admitted for copd. Condition critical. No follow-up scheduled.
+PID00091,67,Female,White,2023-03-25,2023-04-02,Pneumonia,4,8,0,6,Transferred,Self-pay,True,ICU,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00092,42,Male,Other,2023-08-25,2023-08-27,Diabetes,0,13,4,9,Rehab,Self-pay,True,Oncology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00093,81,Male,Other,2023-07-14,2023-07-15,CHF,3,13,3,5,Rehab,Medicare,True,ICU,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00094,56,Female,White,2023-05-19,2023-05-29,Kidney Disease,5,17,0,0,Expired,Self-pay,True,Surgery,1,Patient admitted for kidney disease. Condition critical. Follow-up required.
+PID00095,63,Female,Hispanic,2023-11-24,2023-11-28,Diabetes,5,17,1,2,Rehab,Private,False,Cardiology,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00096,54,Male,Asian,2023-12-19,2023-12-22,Kidney Disease,4,5,2,1,Rehab,Private,False,ER,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00097,84,Male,Black,2023-10-13,2023-10-18,Cancer,0,6,5,5,Rehab,Medicare,False,ICU,1,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00098,66,Male,Other,2023-04-23,2023-05-02,Kidney Disease,1,19,0,7,AMA,Private,True,ER,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00099,22,Male,Asian,2023-12-17,2023-12-18,Heart Attack,5,13,0,2,Rehab,Medicaid,False,ICU,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00100,20,Female,Hispanic,2023-06-16,2023-06-25,Hypertension,4,14,1,9,Home,Private,True,Cardiology,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00101,24,Male,Black,2023-01-29,2023-02-05,Heart Attack,4,4,3,7,Home,Medicare,True,Surgery,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00102,33,Female,Black,2023-04-28,2023-04-30,Stroke,3,7,0,7,Expired,Medicaid,True,Cardiology,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00103,46,Female,Other,2023-01-17,2023-01-21,Pneumonia,2,8,0,4,AMA,Medicaid,False,ER,1,Patient admitted for pneumonia. Condition critical. No follow-up scheduled.
+PID00104,28,Female,White,2023-06-11,2023-06-13,Asthma,2,13,3,7,Home,Self-pay,False,ICU,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00105,34,Male,Hispanic,2023-07-25,2023-08-02,COPD,5,6,1,5,AMA,Private,True,ER,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00106,61,Male,Other,2023-05-18,2023-05-20,Hypertension,3,6,5,4,AMA,Medicare,False,Surgery,1,Patient admitted for hypertension. Condition critical. No follow-up scheduled.
+PID00107,70,Male,Hispanic,2023-02-03,2023-02-06,Kidney Disease,3,3,5,8,Expired,Self-pay,False,Cardiology,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00108,82,Male,White,2023-04-19,2023-04-27,Sepsis,3,3,0,6,AMA,Self-pay,True,ER,0,Patient admitted for sepsis. Condition critical. Follow-up required.
+PID00109,71,Female,White,2023-10-18,2023-10-23,Pneumonia,5,13,3,7,Rehab,Private,True,ER,0,Patient admitted for pneumonia. Condition critical. Follow-up required.
+PID00110,23,Male,Other,2023-06-11,2023-06-20,Hypertension,2,2,0,0,AMA,Private,False,Surgery,0,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00111,42,Male,White,2023-04-19,2023-04-24,COPD,3,16,2,10,Expired,Medicare,True,ICU,1,Patient admitted for copd. Condition stable. Follow-up required.
+PID00112,34,Female,Asian,2023-12-02,2023-12-09,Stroke,0,6,5,1,Expired,Self-pay,True,ER,0,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00113,62,Male,Black,2023-09-13,2023-09-21,Pneumonia,4,8,4,7,Expired,Medicare,False,Surgery,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00114,48,Female,Other,2023-07-22,2023-07-30,COPD,4,8,2,8,Home,Self-pay,False,ICU,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00115,55,Female,Hispanic,2023-11-26,2023-11-30,Cancer,1,6,0,3,Rehab,Self-pay,True,ICU,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00116,32,Female,Asian,2023-08-23,2023-08-31,Cancer,1,14,1,9,Home,Self-pay,False,Cardiology,0,Patient admitted for cancer. Condition critical. No follow-up scheduled.
+PID00117,51,Female,Other,2023-03-15,2023-03-24,Heart Attack,5,3,5,10,Transferred,Private,True,Surgery,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00118,78,Female,White,2023-05-16,2023-05-19,Heart Attack,5,10,4,9,Rehab,Self-pay,True,ICU,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00119,47,Female,White,2023-03-13,2023-03-20,COPD,4,3,2,8,AMA,Self-pay,False,Cardiology,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00120,85,Female,White,2023-05-07,2023-05-11,Hypertension,0,12,5,3,Expired,Self-pay,True,Oncology,0,Patient admitted for hypertension. Condition critical. Follow-up required.
+PID00121,61,Female,White,2023-10-15,2023-10-25,Heart Attack,2,17,3,9,Transferred,Medicaid,True,Surgery,1,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00122,64,Male,Hispanic,2023-10-03,2023-10-12,Pneumonia,2,5,1,9,Rehab,Private,True,Oncology,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00123,81,Male,Asian,2023-05-15,2023-05-18,Hypertension,5,20,2,9,Home,Medicaid,False,ICU,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00124,76,Male,Black,2023-10-27,2023-10-29,Heart Attack,0,9,3,8,Expired,Private,False,Surgery,0,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00125,25,Male,Hispanic,2023-08-08,2023-08-13,CHF,5,20,0,10,Home,Medicare,False,Cardiology,1,Patient admitted for chf. Condition critical. No follow-up scheduled.
+PID00126,47,Female,Hispanic,2023-10-26,2023-11-02,Kidney Disease,2,7,3,6,Rehab,Medicaid,True,ICU,0,Patient admitted for kidney disease. Condition critical. Follow-up required.
+PID00127,47,Male,Black,2023-07-24,2023-07-30,CHF,5,4,2,1,Rehab,Medicare,True,Surgery,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00128,63,Female,Black,2023-07-05,2023-07-14,COVID-19,3,13,2,8,Transferred,Self-pay,False,Surgery,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00129,49,Male,White,2023-04-23,2023-04-28,Cancer,5,13,0,3,AMA,Medicare,False,Oncology,1,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00130,81,Male,Hispanic,2023-03-12,2023-03-13,Stroke,4,10,3,7,Home,Medicare,False,ICU,0,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00131,81,Male,Other,2023-09-18,2023-09-23,Diabetes,5,18,3,6,Transferred,Medicare,True,Cardiology,1,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00132,20,Female,Black,2023-09-10,2023-09-15,Kidney Disease,4,17,0,6,Expired,Medicare,False,Cardiology,1,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00133,46,Male,Black,2023-02-16,2023-02-26,Cancer,0,20,3,7,AMA,Private,True,ICU,1,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00134,81,Female,Asian,2023-01-25,2023-02-04,Hypertension,2,20,5,0,Transferred,Medicaid,False,ICU,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00135,22,Female,Other,2023-02-26,2023-03-06,Hypertension,1,13,0,4,Home,Private,True,ER,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00136,89,Male,Other,2023-03-20,2023-03-23,Hypertension,1,17,1,1,Rehab,Private,True,Oncology,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00137,46,Male,Black,2023-11-18,2023-11-26,Stroke,2,4,2,1,Expired,Private,False,ICU,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00138,28,Male,White,2023-03-23,2023-04-01,CHF,1,1,1,0,Home,Medicare,True,ICU,0,Patient admitted for chf. Condition critical. Follow-up required.
+PID00139,81,Female,Asian,2023-12-15,2023-12-23,Diabetes,5,1,5,4,AMA,Private,False,ER,0,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00140,56,Male,Other,2023-08-05,2023-08-11,Heart Attack,0,15,5,1,AMA,Medicaid,True,ER,1,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00141,70,Female,Black,2023-11-02,2023-11-08,Hypertension,0,13,4,3,Rehab,Private,True,Surgery,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00142,63,Female,Other,2023-02-02,2023-02-11,Asthma,2,17,4,2,Rehab,Self-pay,False,Cardiology,0,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00143,43,Male,Asian,2023-07-17,2023-07-26,COVID-19,1,8,4,2,Expired,Medicare,True,Oncology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00144,78,Male,Asian,2023-07-15,2023-07-22,Kidney Disease,5,18,0,1,Expired,Self-pay,False,Surgery,1,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00145,51,Female,Hispanic,2023-11-02,2023-11-10,Pneumonia,0,13,3,5,Rehab,Medicaid,False,ICU,1,Patient admitted for pneumonia. Condition critical. No follow-up scheduled.
+PID00146,71,Female,Black,2023-08-28,2023-09-03,Heart Attack,0,14,5,1,Rehab,Medicaid,False,ER,0,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00147,81,Female,Asian,2023-09-28,2023-10-02,Asthma,3,8,1,7,AMA,Medicaid,True,Cardiology,0,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00148,77,Male,Hispanic,2023-05-09,2023-05-13,Diabetes,3,8,1,7,Rehab,Medicaid,True,Surgery,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00149,71,Female,Hispanic,2023-10-11,2023-10-21,Stroke,0,15,1,4,Transferred,Private,True,Cardiology,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00150,31,Male,Other,2023-01-06,2023-01-13,Diabetes,2,13,1,9,Home,Medicare,False,ER,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00151,58,Female,Other,2023-12-15,2023-12-19,Pneumonia,4,7,4,6,Rehab,Medicaid,False,Surgery,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00152,21,Female,Hispanic,2023-02-28,2023-03-07,Kidney Disease,4,5,1,3,Expired,Self-pay,True,Surgery,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00153,22,Male,Other,2023-12-16,2023-12-17,Pneumonia,5,17,3,0,Transferred,Medicaid,True,Cardiology,1,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00154,75,Female,Asian,2023-10-02,2023-10-08,COPD,0,16,4,10,Expired,Medicare,False,ER,1,Patient admitted for copd. Condition critical. No follow-up scheduled.
+PID00155,78,Male,White,2023-05-17,2023-05-25,Kidney Disease,0,2,1,1,Transferred,Self-pay,True,ICU,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00156,21,Male,Asian,2023-11-25,2023-12-02,Diabetes,0,18,0,9,Rehab,Self-pay,False,Surgery,0,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00157,21,Female,Hispanic,2023-06-24,2023-07-01,Hypertension,2,17,2,9,Home,Self-pay,True,ICU,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00158,73,Male,Hispanic,2023-02-27,2023-03-02,Diabetes,3,7,2,3,Expired,Private,False,ER,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00159,20,Male,Asian,2023-05-31,2023-06-08,Diabetes,0,13,2,0,Transferred,Medicaid,True,Surgery,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00160,38,Female,Other,2023-08-11,2023-08-12,Kidney Disease,0,18,4,7,AMA,Private,True,Surgery,1,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00161,21,Male,Other,2023-03-22,2023-03-25,COVID-19,1,14,1,8,Rehab,Self-pay,False,ICU,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00162,72,Male,Hispanic,2023-08-21,2023-08-30,COPD,2,18,5,3,Home,Private,False,Oncology,0,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00163,63,Male,Black,2023-01-02,2023-01-12,Heart Attack,5,13,5,9,Rehab,Private,False,ICU,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00164,51,Female,Other,2023-05-15,2023-05-21,Diabetes,0,11,5,2,AMA,Private,True,ICU,1,Patient admitted for diabetes. Condition critical. Follow-up required.
+PID00165,89,Male,Asian,2023-09-14,2023-09-16,Asthma,1,16,4,1,Home,Medicaid,False,Oncology,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00166,51,Female,Other,2023-04-02,2023-04-10,Cancer,4,17,3,4,AMA,Self-pay,False,ER,0,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00167,87,Female,Asian,2023-09-17,2023-09-19,Sepsis,5,8,0,2,Rehab,Self-pay,True,ER,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00168,74,Male,Hispanic,2023-02-24,2023-03-05,Sepsis,0,19,0,9,Transferred,Medicaid,False,Surgery,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00169,75,Male,Other,2023-11-17,2023-11-25,Diabetes,0,20,2,6,Rehab,Private,False,Cardiology,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00170,36,Male,Asian,2023-06-02,2023-06-03,Asthma,1,15,2,10,Rehab,Private,False,Cardiology,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00171,57,Female,Hispanic,2023-11-24,2023-11-27,COVID-19,2,9,5,5,Rehab,Medicare,True,Surgery,1,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00172,43,Male,Black,2023-09-17,2023-09-24,Hypertension,0,20,5,0,Expired,Medicare,True,Cardiology,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00173,88,Male,Asian,2023-11-08,2023-11-11,Stroke,4,10,2,7,AMA,Medicare,True,ICU,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00174,89,Male,Black,2023-04-12,2023-04-14,Stroke,0,12,1,1,AMA,Medicaid,False,ICU,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00175,30,Male,Black,2023-03-20,2023-03-28,Kidney Disease,4,20,3,4,AMA,Self-pay,True,Oncology,1,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00176,35,Male,White,2023-07-11,2023-07-16,Sepsis,5,1,3,8,Expired,Medicare,False,Oncology,0,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00177,78,Female,Other,2023-03-24,2023-03-30,Diabetes,5,20,3,7,Transferred,Self-pay,False,Surgery,0,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00178,89,Female,Asian,2023-10-04,2023-10-14,Stroke,3,9,3,1,Rehab,Self-pay,False,Surgery,0,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00179,22,Male,Black,2023-09-29,2023-10-06,Diabetes,3,15,2,8,Transferred,Self-pay,True,Surgery,0,Patient admitted for diabetes. Condition critical. Follow-up required.
+PID00180,39,Male,White,2023-01-01,2023-01-03,Kidney Disease,4,1,0,4,Expired,Medicaid,True,ICU,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00181,78,Male,Hispanic,2023-11-03,2023-11-09,Sepsis,2,12,2,9,AMA,Medicaid,False,Cardiology,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00182,55,Male,Asian,2023-06-15,2023-06-24,Pneumonia,0,3,3,5,Rehab,Medicaid,False,Surgery,0,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00183,38,Female,Black,2023-09-08,2023-09-15,COVID-19,0,11,2,2,Home,Medicaid,True,Surgery,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00184,86,Male,Other,2023-01-10,2023-01-16,Cancer,3,2,3,2,Home,Medicare,True,ICU,0,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00185,38,Female,White,2023-02-27,2023-03-07,Cancer,4,16,4,9,Transferred,Private,True,ICU,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00186,39,Female,Black,2023-07-05,2023-07-14,Stroke,0,9,5,7,AMA,Private,False,ICU,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00187,71,Male,Other,2023-06-07,2023-06-08,Cancer,0,15,0,10,Home,Private,True,Cardiology,0,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00188,52,Female,Black,2023-05-03,2023-05-13,COVID-19,2,12,4,9,Transferred,Medicare,True,Surgery,1,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00189,59,Female,Asian,2023-01-30,2023-02-01,Pneumonia,1,1,1,9,Expired,Private,True,ER,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00190,58,Female,Asian,2023-05-04,2023-05-08,COVID-19,3,13,2,1,Transferred,Medicare,False,ER,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00191,20,Female,Asian,2023-10-18,2023-10-23,Diabetes,3,14,1,10,Transferred,Medicare,True,Surgery,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00192,30,Male,White,2023-02-10,2023-02-14,Kidney Disease,1,8,2,1,Transferred,Medicare,False,Surgery,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00193,76,Male,Asian,2023-02-13,2023-02-15,Heart Attack,0,8,5,4,Rehab,Private,False,Surgery,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00194,69,Female,Other,2023-09-06,2023-09-13,Pneumonia,2,12,4,5,Transferred,Self-pay,False,Surgery,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00195,42,Male,Black,2023-02-05,2023-02-07,Heart Attack,2,1,5,1,Transferred,Private,True,Cardiology,1,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00196,50,Male,Hispanic,2023-09-30,2023-10-02,Kidney Disease,3,11,3,4,Rehab,Private,True,ER,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00197,61,Male,Other,2023-03-06,2023-03-14,Kidney Disease,2,8,5,6,Rehab,Medicaid,True,Oncology,1,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00198,26,Male,Other,2023-03-07,2023-03-10,Sepsis,5,10,5,9,Expired,Medicare,False,ER,0,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00199,35,Male,Asian,2023-12-04,2023-12-09,Heart Attack,1,19,3,9,AMA,Self-pay,True,ER,0,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00200,79,Female,White,2023-09-01,2023-09-02,Diabetes,0,11,2,7,Home,Medicaid,False,ICU,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00201,21,Male,Black,2023-10-09,2023-10-10,Asthma,5,7,3,6,Home,Self-pay,True,Surgery,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00202,20,Male,White,2023-03-26,2023-04-01,Cancer,1,11,4,7,Transferred,Self-pay,True,Surgery,1,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00203,67,Male,Black,2023-05-16,2023-05-17,Heart Attack,4,17,5,8,Expired,Medicare,True,Surgery,1,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00204,31,Male,Black,2023-09-28,2023-10-03,Asthma,3,1,3,4,Transferred,Private,True,ICU,0,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00205,88,Female,White,2023-11-07,2023-11-13,Sepsis,2,8,5,4,Home,Medicare,False,Cardiology,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00206,56,Female,Other,2023-08-05,2023-08-11,Kidney Disease,4,6,4,10,Rehab,Medicare,False,Cardiology,0,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00207,51,Female,Black,2023-04-19,2023-04-26,Stroke,2,18,1,9,AMA,Medicaid,False,Oncology,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00208,28,Female,White,2023-10-04,2023-10-07,COVID-19,5,6,4,3,Expired,Medicare,False,Cardiology,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00209,38,Male,Black,2023-12-20,2023-12-24,Cancer,0,5,0,8,Rehab,Private,True,Cardiology,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00210,67,Female,Hispanic,2023-04-13,2023-04-22,Cancer,0,13,0,4,AMA,Self-pay,False,Surgery,0,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00211,22,Male,Other,2024-01-01,2024-01-08,Diabetes,0,19,0,1,Expired,Medicare,False,ER,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00212,39,Male,Asian,2023-06-09,2023-06-19,COPD,2,8,5,9,Expired,Self-pay,False,Cardiology,0,Patient admitted for copd. Condition critical. No follow-up scheduled.
+PID00213,43,Male,Black,2023-07-24,2023-07-27,CHF,4,9,2,7,Home,Medicare,True,Cardiology,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00214,73,Male,Hispanic,2023-12-10,2023-12-13,CHF,0,17,2,6,Rehab,Self-pay,False,ICU,0,Patient admitted for chf. Condition critical. No follow-up scheduled.
+PID00215,52,Male,Asian,2023-11-29,2023-12-02,CHF,4,3,2,7,Expired,Medicare,False,Oncology,1,Patient admitted for chf. Condition critical. No follow-up scheduled.
+PID00216,43,Female,Asian,2023-07-11,2023-07-13,COPD,2,19,5,2,Expired,Medicaid,True,ICU,1,Patient admitted for copd. Condition stable. Follow-up required.
+PID00217,55,Female,Black,2023-08-13,2023-08-23,Diabetes,5,11,4,3,AMA,Self-pay,True,Surgery,1,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00218,57,Female,White,2023-09-22,2023-09-29,COPD,4,17,2,4,Home,Medicare,False,ER,0,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00219,44,Female,Black,2023-08-20,2023-08-30,CHF,5,19,1,5,Transferred,Medicare,False,Oncology,0,Patient admitted for chf. Condition critical. No follow-up scheduled.
+PID00220,37,Male,Hispanic,2023-03-03,2023-03-07,Sepsis,2,2,0,0,Home,Medicaid,True,ICU,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00221,85,Female,Asian,2023-05-07,2023-05-15,Pneumonia,2,8,4,3,Transferred,Medicaid,False,Cardiology,0,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00222,73,Male,Black,2023-04-26,2023-05-06,Heart Attack,3,19,0,10,Rehab,Medicaid,True,Cardiology,0,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00223,54,Female,White,2023-02-02,2023-02-05,Kidney Disease,2,7,2,9,Rehab,Self-pay,False,Oncology,0,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00224,80,Male,Black,2023-06-23,2023-06-27,COPD,2,17,4,4,Expired,Self-pay,False,Cardiology,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00225,60,Male,Other,2023-01-11,2023-01-19,Diabetes,1,6,3,6,Rehab,Medicaid,False,ICU,1,Patient admitted for diabetes. Condition critical. No follow-up scheduled.
+PID00226,52,Female,White,2023-10-29,2023-11-03,Diabetes,0,19,1,4,Expired,Private,False,ICU,0,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00227,87,Male,Hispanic,2023-10-11,2023-10-19,Heart Attack,3,6,2,0,Home,Private,False,Cardiology,0,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00228,52,Male,Asian,2023-04-28,2023-05-03,Asthma,3,2,2,10,Rehab,Medicare,True,Cardiology,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00229,33,Female,Black,2023-10-29,2023-10-30,Pneumonia,3,6,1,6,Home,Private,True,Surgery,0,Patient admitted for pneumonia. Condition critical. Follow-up required.
+PID00230,40,Male,White,2023-04-23,2023-05-01,Stroke,1,5,1,7,Home,Medicare,False,ER,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00231,67,Female,Other,2023-01-04,2023-01-09,Cancer,5,19,3,6,Rehab,Self-pay,False,Oncology,1,Patient admitted for cancer. Condition critical. No follow-up scheduled.
+PID00232,39,Female,White,2023-02-06,2023-02-15,CHF,2,20,2,10,Home,Self-pay,False,ICU,0,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00233,27,Female,Other,2023-12-29,2024-01-01,Stroke,0,4,5,3,Rehab,Private,True,Oncology,1,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00234,26,Male,Hispanic,2023-11-20,2023-11-22,Asthma,4,17,2,7,Rehab,Self-pay,True,Surgery,1,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00235,86,Male,Asian,2023-01-31,2023-02-08,CHF,5,11,0,4,Rehab,Medicaid,True,ICU,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00236,36,Male,Hispanic,2023-04-28,2023-05-04,Pneumonia,2,4,4,9,Transferred,Medicaid,True,Surgery,1,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00237,52,Female,Black,2023-02-04,2023-02-14,COVID-19,1,13,4,8,Home,Private,True,Surgery,1,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00238,67,Male,White,2023-01-17,2023-01-22,Asthma,2,20,0,9,AMA,Private,True,Cardiology,1,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00239,78,Female,Other,2023-06-19,2023-06-26,CHF,2,17,4,4,Rehab,Medicare,True,Oncology,1,Patient admitted for chf. Condition critical. Follow-up required.
+PID00240,41,Female,Other,2023-02-06,2023-02-11,Pneumonia,1,9,1,0,Home,Self-pay,True,Oncology,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00241,49,Male,White,2023-09-21,2023-09-29,Hypertension,3,4,4,8,Expired,Medicare,False,Cardiology,0,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00242,57,Female,White,2023-05-02,2023-05-07,Stroke,3,14,4,4,Rehab,Medicare,True,Oncology,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00243,70,Male,Black,2023-05-23,2023-05-27,Stroke,0,19,0,5,Rehab,Medicaid,True,Cardiology,1,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00244,73,Male,Hispanic,2023-12-09,2023-12-16,Cancer,0,3,3,3,AMA,Medicaid,True,ICU,0,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00245,27,Male,Other,2023-09-06,2023-09-14,Heart Attack,3,14,4,5,Transferred,Medicaid,True,Surgery,1,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00246,46,Male,Black,2023-04-20,2023-04-22,Pneumonia,5,8,5,7,Transferred,Medicaid,False,Surgery,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00247,46,Male,Hispanic,2023-10-04,2023-10-08,COPD,4,1,4,2,Rehab,Medicare,True,Oncology,1,Patient admitted for copd. Condition critical. Follow-up required.
+PID00248,40,Female,Black,2023-03-09,2023-03-16,Hypertension,2,10,3,4,Home,Medicaid,False,ER,0,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00249,49,Female,Other,2023-10-20,2023-10-30,COVID-19,4,18,0,1,Expired,Self-pay,False,Surgery,1,Patient admitted for covid-19. Condition critical. No follow-up scheduled.
+PID00250,47,Female,White,2023-10-23,2023-10-29,Sepsis,2,16,3,1,Expired,Medicaid,False,Cardiology,1,Patient admitted for sepsis. Condition critical. No follow-up scheduled.
+PID00251,83,Male,White,2023-08-31,2023-09-10,CHF,3,8,0,6,Home,Medicaid,True,ER,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00252,88,Male,Hispanic,2023-05-05,2023-05-10,Hypertension,0,1,1,9,Rehab,Medicaid,True,ER,0,Patient admitted for hypertension. Condition critical. Follow-up required.
+PID00253,80,Male,Asian,2023-08-31,2023-09-05,Pneumonia,5,12,0,9,Expired,Private,True,Surgery,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00254,67,Female,Hispanic,2023-07-28,2023-07-29,Kidney Disease,0,8,1,10,Transferred,Self-pay,False,Surgery,0,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00255,38,Male,Asian,2023-04-08,2023-04-15,CHF,4,16,1,9,Home,Self-pay,False,Surgery,0,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00256,23,Female,Black,2023-02-18,2023-02-23,Diabetes,0,18,0,5,AMA,Medicare,False,Cardiology,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00257,54,Female,Black,2023-02-19,2023-02-20,Stroke,3,4,5,3,Rehab,Medicare,False,ER,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00258,83,Male,Other,2023-12-04,2023-12-14,Heart Attack,5,6,2,4,Home,Medicaid,True,Oncology,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00259,68,Male,Asian,2023-08-09,2023-08-10,Pneumonia,4,12,0,0,Expired,Private,True,Cardiology,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00260,36,Female,Other,2023-07-01,2023-07-11,COVID-19,5,9,4,6,Rehab,Medicare,True,ICU,1,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00261,63,Male,White,2023-08-05,2023-08-13,Diabetes,2,15,5,7,Transferred,Medicare,False,Surgery,0,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00262,49,Female,Asian,2023-07-30,2023-08-04,Cancer,0,16,5,8,Rehab,Medicaid,False,ER,1,Patient admitted for cancer. Condition critical. No follow-up scheduled.
+PID00263,65,Male,Hispanic,2023-08-28,2023-09-01,Asthma,5,12,4,7,Rehab,Medicaid,True,Cardiology,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00264,25,Male,White,2023-01-28,2023-02-07,Sepsis,1,14,2,4,Transferred,Medicare,True,ICU,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00265,56,Female,White,2023-12-11,2023-12-17,Sepsis,0,13,5,2,Transferred,Medicare,False,Cardiology,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00266,43,Male,Hispanic,2023-12-01,2023-12-05,Diabetes,2,2,1,9,Rehab,Self-pay,True,Cardiology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00267,65,Female,White,2023-11-27,2023-12-01,Stroke,5,3,2,10,Transferred,Private,True,Oncology,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00268,72,Male,Asian,2023-02-20,2023-03-02,Cancer,4,10,4,8,Home,Self-pay,False,Oncology,1,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00269,79,Female,Other,2023-02-01,2023-02-06,Kidney Disease,2,9,2,5,Transferred,Medicare,False,Cardiology,1,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00270,82,Female,White,2023-07-26,2023-07-29,Stroke,1,20,0,4,Transferred,Self-pay,False,ICU,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00271,51,Male,Asian,2023-06-23,2023-06-25,Hypertension,5,8,2,2,Rehab,Self-pay,True,ER,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00272,52,Female,Black,2023-02-25,2023-02-26,Heart Attack,3,10,1,5,Home,Medicare,False,ER,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00273,86,Male,Asian,2023-05-08,2023-05-13,Sepsis,0,19,0,2,AMA,Medicaid,True,Surgery,1,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00274,37,Male,Other,2023-04-09,2023-04-17,Hypertension,4,3,3,9,AMA,Medicare,True,Surgery,0,Patient admitted for hypertension. Condition critical. Follow-up required.
+PID00275,44,Male,Asian,2023-04-08,2023-04-09,COVID-19,3,5,4,5,Expired,Medicaid,False,ER,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00276,73,Female,Hispanic,2023-10-02,2023-10-12,CHF,5,3,4,3,Transferred,Medicare,True,Cardiology,1,Patient admitted for chf. Condition stable. Follow-up required.
+PID00277,77,Female,Other,2023-08-18,2023-08-24,COPD,5,16,2,1,Transferred,Medicare,False,Cardiology,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00278,86,Male,Black,2023-03-13,2023-03-16,Pneumonia,2,17,5,7,Home,Medicare,False,Oncology,1,Patient admitted for pneumonia. Condition critical. No follow-up scheduled.
+PID00279,65,Male,Hispanic,2023-08-05,2023-08-07,Cancer,5,15,0,3,AMA,Private,True,Oncology,0,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00280,43,Female,Asian,2023-04-04,2023-04-09,Stroke,4,3,3,8,Expired,Medicaid,True,Surgery,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00281,51,Male,Other,2023-05-23,2023-05-29,Sepsis,3,12,0,6,Home,Private,False,ER,1,Patient admitted for sepsis. Condition critical. No follow-up scheduled.
+PID00282,66,Male,Black,2023-08-25,2023-09-01,Hypertension,4,9,4,1,Transferred,Medicare,False,Cardiology,0,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00283,42,Female,Hispanic,2023-05-08,2023-05-11,Asthma,1,12,0,3,AMA,Self-pay,False,ER,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00284,85,Male,Black,2023-02-08,2023-02-12,Heart Attack,1,15,3,4,Expired,Private,False,ICU,0,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00285,46,Female,Asian,2023-08-15,2023-08-18,Heart Attack,0,2,5,2,Rehab,Medicaid,False,ER,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00286,21,Male,Black,2023-10-09,2023-10-18,CHF,0,18,2,8,AMA,Medicare,False,ICU,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00287,36,Female,White,2023-02-20,2023-02-26,Pneumonia,1,20,1,4,Expired,Private,True,Oncology,1,Patient admitted for pneumonia. Condition critical. Follow-up required.
+PID00288,52,Male,Hispanic,2023-01-26,2023-02-04,Pneumonia,5,12,0,1,Home,Self-pay,True,Oncology,0,Patient admitted for pneumonia. Condition critical. Follow-up required.
+PID00289,28,Male,Black,2023-11-30,2023-12-09,Heart Attack,4,4,1,10,Rehab,Private,True,Surgery,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00290,62,Female,Asian,2023-10-04,2023-10-09,Heart Attack,1,16,4,2,Expired,Medicaid,True,ER,1,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00291,67,Male,Asian,2023-01-08,2023-01-11,Stroke,0,16,2,8,Expired,Private,False,ER,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00292,58,Female,Black,2023-02-17,2023-02-22,Cancer,1,1,2,6,Transferred,Self-pay,True,ICU,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00293,61,Male,Asian,2023-05-02,2023-05-10,Kidney Disease,5,2,0,1,AMA,Self-pay,True,Oncology,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00294,45,Female,Other,2023-03-27,2023-04-01,COVID-19,1,3,5,8,Transferred,Medicaid,False,ICU,1,Patient admitted for covid-19. Condition critical. No follow-up scheduled.
+PID00295,69,Female,Other,2023-07-28,2023-08-03,Asthma,4,20,2,3,Rehab,Self-pay,True,Oncology,0,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00296,44,Female,Other,2023-09-06,2023-09-08,COVID-19,3,17,0,8,Expired,Medicare,False,ICU,1,Patient admitted for covid-19. Condition critical. No follow-up scheduled.
+PID00297,43,Female,White,2023-09-04,2023-09-12,Stroke,5,20,0,1,Transferred,Self-pay,False,Oncology,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00298,32,Male,Black,2023-04-20,2023-04-22,Hypertension,0,1,1,9,AMA,Medicare,False,ICU,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00299,79,Male,White,2023-07-25,2023-07-28,COPD,4,20,2,3,Rehab,Private,False,Oncology,0,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00300,26,Female,Asian,2023-01-31,2023-02-04,Heart Attack,1,6,0,4,Home,Medicare,False,ICU,0,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00301,76,Female,White,2023-03-26,2023-04-02,Diabetes,1,15,1,1,Transferred,Medicare,True,ER,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00302,55,Female,Asian,2023-07-14,2023-07-23,Kidney Disease,3,14,3,9,Rehab,Private,True,Surgery,0,Patient admitted for kidney disease. Condition critical. Follow-up required.
+PID00303,64,Male,Asian,2023-01-02,2023-01-08,Cancer,0,20,1,0,Home,Self-pay,True,ICU,1,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00304,39,Male,Hispanic,2023-07-19,2023-07-21,CHF,0,15,1,6,Transferred,Medicare,False,Surgery,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00305,84,Male,Other,2023-05-16,2023-05-23,Kidney Disease,2,14,0,9,Rehab,Self-pay,True,ER,0,Patient admitted for kidney disease. Condition critical. Follow-up required.
+PID00306,27,Male,Asian,2023-08-21,2023-08-22,Heart Attack,0,5,4,0,Rehab,Private,True,ER,1,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00307,35,Female,Hispanic,2023-05-27,2023-06-01,Sepsis,3,6,4,10,Transferred,Medicaid,True,Oncology,1,Patient admitted for sepsis. Condition critical. Follow-up required.
+PID00308,33,Female,Other,2023-08-05,2023-08-14,Cancer,2,17,5,10,Rehab,Self-pay,True,Surgery,1,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00309,34,Female,Asian,2023-12-23,2023-12-25,COPD,2,11,4,7,Expired,Self-pay,False,Cardiology,1,Patient admitted for copd. Condition critical. No follow-up scheduled.
+PID00310,85,Male,Asian,2023-10-12,2023-10-20,Sepsis,1,16,1,2,Transferred,Medicaid,True,Oncology,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00311,51,Male,White,2023-12-05,2023-12-11,Kidney Disease,1,12,5,9,Rehab,Medicaid,False,Surgery,1,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00312,82,Male,White,2023-09-07,2023-09-12,Diabetes,0,15,0,5,Home,Private,False,ICU,1,Patient admitted for diabetes. Condition critical. No follow-up scheduled.
+PID00313,70,Female,Other,2023-03-21,2023-03-31,Diabetes,2,4,2,6,Home,Self-pay,True,ICU,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00314,44,Female,Asian,2023-04-08,2023-04-15,COPD,1,18,1,9,Expired,Self-pay,False,ER,0,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00315,77,Male,Black,2023-06-01,2023-06-07,Pneumonia,3,3,1,0,Transferred,Private,False,Cardiology,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00316,82,Female,White,2023-04-22,2023-04-24,Asthma,1,8,5,5,Rehab,Self-pay,False,ICU,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00317,81,Male,Other,2023-01-30,2023-02-03,Heart Attack,5,3,0,6,Rehab,Medicare,False,Surgery,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00318,41,Male,Asian,2023-10-24,2023-11-01,CHF,5,8,3,5,Home,Medicare,False,Surgery,0,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00319,77,Female,Asian,2023-10-05,2023-10-06,Heart Attack,1,18,1,3,Expired,Medicare,False,ICU,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00320,77,Male,Black,2023-02-01,2023-02-11,Pneumonia,2,10,3,0,Home,Self-pay,False,Surgery,1,Patient admitted for pneumonia. Condition critical. No follow-up scheduled.
+PID00321,68,Female,Other,2023-06-10,2023-06-19,COVID-19,2,20,3,10,Home,Medicare,True,Surgery,1,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00322,71,Male,Asian,2023-01-30,2023-02-05,COVID-19,4,17,4,8,Expired,Medicare,True,ER,1,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00323,61,Female,White,2023-01-26,2023-02-05,COVID-19,5,8,0,3,Transferred,Private,False,Cardiology,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00324,89,Female,Black,2023-10-27,2023-10-31,Diabetes,3,11,3,6,Rehab,Private,False,ER,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00325,34,Female,Other,2023-09-02,2023-09-04,Diabetes,2,5,0,6,Transferred,Medicaid,True,Cardiology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00326,73,Male,Black,2023-09-15,2023-09-23,Hypertension,0,13,4,1,AMA,Medicaid,True,Surgery,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00327,79,Male,White,2023-09-29,2023-10-04,Sepsis,5,5,0,0,AMA,Medicaid,True,Cardiology,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00328,27,Female,Other,2023-03-22,2023-03-29,Kidney Disease,3,13,1,7,AMA,Medicaid,True,Surgery,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00329,72,Female,Black,2023-01-30,2023-02-01,CHF,3,6,3,7,Expired,Private,False,Surgery,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00330,79,Male,Hispanic,2023-09-18,2023-09-21,COPD,2,5,0,6,Home,Private,False,ER,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00331,24,Male,White,2023-02-11,2023-02-12,Kidney Disease,3,9,2,7,Transferred,Private,True,ER,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00332,87,Male,White,2023-04-06,2023-04-07,Heart Attack,2,16,0,2,Rehab,Medicare,True,Oncology,1,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00333,25,Female,White,2023-02-05,2023-02-10,Hypertension,1,2,3,10,AMA,Medicare,True,ICU,0,Patient admitted for hypertension. Condition critical. Follow-up required.
+PID00334,66,Male,Hispanic,2023-11-01,2023-11-09,Diabetes,5,1,4,1,Transferred,Medicaid,True,Oncology,1,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00335,74,Male,Hispanic,2023-02-04,2023-02-06,COPD,4,8,4,6,AMA,Medicare,False,Oncology,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00336,59,Female,Asian,2023-12-12,2023-12-14,Diabetes,1,19,3,7,AMA,Self-pay,True,Cardiology,1,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00337,71,Male,Black,2023-05-01,2023-05-05,CHF,5,11,1,0,Rehab,Private,True,Surgery,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00338,35,Male,Asian,2023-07-26,2023-08-04,Sepsis,2,12,1,9,Expired,Medicaid,True,Surgery,0,Patient admitted for sepsis. Condition critical. Follow-up required.
+PID00339,32,Male,Black,2023-03-03,2023-03-06,Kidney Disease,5,12,4,8,Home,Medicaid,False,Surgery,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00340,49,Female,Hispanic,2023-10-19,2023-10-26,Kidney Disease,2,7,4,10,Expired,Self-pay,False,ICU,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00341,38,Female,Hispanic,2023-05-07,2023-05-15,COVID-19,1,13,3,3,Transferred,Medicare,False,Cardiology,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00342,36,Female,Asian,2023-10-24,2023-10-30,Pneumonia,0,8,1,3,Expired,Medicaid,True,Cardiology,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00343,82,Female,Other,2023-11-01,2023-11-10,COVID-19,0,9,4,2,Transferred,Medicare,True,Surgery,1,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00344,38,Female,Asian,2023-01-21,2023-01-28,COPD,5,7,1,5,Transferred,Medicare,True,Oncology,0,Patient admitted for copd. Condition critical. Follow-up required.
+PID00345,77,Female,Black,2023-11-14,2023-11-24,Asthma,0,15,4,0,Home,Self-pay,False,ICU,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00346,74,Female,Asian,2023-02-11,2023-02-14,COVID-19,2,2,0,5,Rehab,Medicaid,False,Oncology,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00347,81,Male,White,2023-08-03,2023-08-10,Hypertension,3,20,2,1,Home,Medicare,True,ER,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00348,42,Male,Black,2023-12-03,2023-12-05,COVID-19,2,12,5,8,Expired,Medicare,True,Cardiology,1,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00349,28,Female,Black,2023-10-26,2023-11-03,COVID-19,3,1,0,1,Transferred,Self-pay,False,Cardiology,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00350,31,Male,Other,2023-10-17,2023-10-27,Asthma,1,8,5,6,AMA,Self-pay,True,Oncology,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00351,20,Male,Hispanic,2023-09-25,2023-10-02,Pneumonia,4,5,4,0,AMA,Medicare,True,ICU,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00352,77,Female,Black,2023-06-11,2023-06-16,CHF,3,15,2,6,Transferred,Self-pay,True,Cardiology,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00353,20,Male,Hispanic,2023-05-14,2023-05-15,Hypertension,0,1,2,4,Home,Medicare,False,Oncology,1,Patient admitted for hypertension. Condition critical. No follow-up scheduled.
+PID00354,53,Male,Asian,2023-04-15,2023-04-21,COVID-19,2,1,4,7,Rehab,Medicaid,True,ICU,1,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00355,67,Male,White,2023-12-09,2023-12-13,Sepsis,1,10,4,3,Home,Private,True,Oncology,1,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00356,20,Male,Other,2023-06-10,2023-06-18,Asthma,0,10,1,9,Transferred,Self-pay,True,ICU,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00357,35,Male,Hispanic,2023-05-03,2023-05-11,Sepsis,1,15,4,6,Transferred,Private,True,Surgery,1,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00358,80,Female,Black,2023-05-16,2023-05-20,Asthma,4,17,3,5,Rehab,Medicare,False,ICU,1,Patient admitted for asthma. Condition critical. No follow-up scheduled.
+PID00359,83,Female,Hispanic,2023-07-22,2023-07-28,Sepsis,2,6,4,4,Expired,Medicare,False,ER,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00360,82,Female,Black,2023-03-09,2023-03-11,Asthma,5,3,3,3,Expired,Medicare,False,Surgery,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00361,88,Male,Hispanic,2023-12-10,2023-12-16,Heart Attack,2,13,4,6,Rehab,Private,True,Oncology,1,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00362,41,Female,Black,2023-11-27,2023-12-06,Sepsis,4,16,1,4,Expired,Medicare,False,Surgery,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00363,86,Male,Asian,2023-06-03,2023-06-09,Pneumonia,2,8,3,4,AMA,Self-pay,True,Surgery,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00364,45,Male,Black,2023-08-23,2023-08-24,Cancer,5,15,0,0,Expired,Medicaid,False,Oncology,1,Patient admitted for cancer. Condition critical. No follow-up scheduled.
+PID00365,35,Male,Black,2023-06-11,2023-06-18,Hypertension,3,17,3,1,Expired,Medicaid,True,Oncology,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00366,70,Male,White,2023-02-07,2023-02-12,COPD,1,17,1,4,Expired,Self-pay,False,ER,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00367,76,Female,Black,2023-01-05,2023-01-09,CHF,5,13,5,2,AMA,Medicaid,False,Oncology,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00368,48,Female,White,2023-08-23,2023-08-25,Heart Attack,0,17,3,1,Expired,Private,False,Cardiology,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00369,88,Male,Other,2023-11-15,2023-11-23,Stroke,4,6,4,3,AMA,Medicare,True,Cardiology,1,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00370,66,Female,White,2023-10-16,2023-10-18,Diabetes,3,17,4,3,Rehab,Medicare,True,ER,1,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00371,81,Male,Asian,2023-02-21,2023-02-25,COVID-19,0,16,5,3,Home,Medicare,True,ICU,1,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00372,88,Female,White,2023-02-07,2023-02-17,COPD,0,14,1,3,Rehab,Private,False,ICU,0,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00373,35,Female,Other,2023-10-03,2023-10-04,Diabetes,4,13,2,2,Home,Private,True,Cardiology,0,Patient admitted for diabetes. Condition critical. Follow-up required.
+PID00374,67,Male,Asian,2023-04-20,2023-04-21,Hypertension,3,6,4,6,Rehab,Private,True,Oncology,0,Patient admitted for hypertension. Condition critical. Follow-up required.
+PID00375,58,Female,Hispanic,2023-09-17,2023-09-23,COPD,0,3,0,8,Home,Self-pay,True,ER,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00376,52,Male,Hispanic,2023-05-16,2023-05-20,Sepsis,0,14,1,4,Home,Private,True,ICU,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00377,42,Female,White,2023-03-09,2023-03-12,Sepsis,3,14,3,3,Transferred,Medicaid,True,ICU,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00378,29,Male,White,2023-06-28,2023-07-08,Stroke,2,15,3,10,Home,Self-pay,True,Surgery,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00379,88,Male,Other,2023-02-05,2023-02-09,Diabetes,0,8,0,1,Home,Self-pay,False,Cardiology,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00380,53,Female,Other,2023-05-06,2023-05-08,CHF,1,15,4,1,Transferred,Self-pay,False,Oncology,0,Patient admitted for chf. Condition critical. No follow-up scheduled.
+PID00381,71,Female,Black,2023-07-09,2023-07-18,Hypertension,3,13,1,4,Expired,Private,True,ER,0,Patient admitted for hypertension. Condition critical. Follow-up required.
+PID00382,29,Male,Other,2023-05-26,2023-05-30,Sepsis,0,17,0,6,Expired,Self-pay,False,ICU,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00383,38,Female,Black,2023-03-22,2023-04-01,COVID-19,4,3,4,9,Transferred,Private,False,Surgery,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00384,77,Female,Asian,2023-08-13,2023-08-17,Cancer,5,6,1,9,AMA,Private,True,Cardiology,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00385,20,Male,White,2023-10-06,2023-10-10,Pneumonia,1,5,3,8,Home,Self-pay,True,Cardiology,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00386,88,Male,Asian,2023-12-27,2024-01-02,Pneumonia,5,17,1,6,Home,Medicare,False,ER,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00387,23,Female,Other,2023-06-04,2023-06-07,Asthma,5,2,5,4,Transferred,Medicare,True,ICU,0,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00388,35,Male,Asian,2023-11-10,2023-11-20,CHF,0,15,2,9,Transferred,Self-pay,False,ER,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00389,43,Male,Asian,2023-12-01,2023-12-02,Pneumonia,1,5,1,9,AMA,Medicare,False,ER,0,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00390,21,Male,Asian,2023-09-28,2023-10-03,Asthma,1,20,2,9,Expired,Medicaid,False,Surgery,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00391,51,Female,Other,2023-01-05,2023-01-08,Diabetes,2,6,1,5,Rehab,Medicaid,True,Cardiology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00392,43,Female,Asian,2023-12-08,2023-12-11,Sepsis,5,6,2,10,Expired,Private,False,Oncology,0,Patient admitted for sepsis. Condition critical. No follow-up scheduled.
+PID00393,31,Male,Black,2023-10-11,2023-10-20,Heart Attack,1,18,5,2,Home,Medicare,True,Cardiology,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00394,69,Female,Other,2023-06-03,2023-06-08,Sepsis,2,18,3,4,Transferred,Medicaid,True,Cardiology,1,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00395,54,Male,Asian,2023-12-06,2023-12-09,Heart Attack,3,4,4,7,AMA,Self-pay,True,Surgery,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00396,52,Female,Other,2023-02-23,2023-02-25,COVID-19,2,17,2,0,Expired,Medicare,True,Oncology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00397,52,Male,Hispanic,2023-03-10,2023-03-11,Cancer,4,14,5,0,AMA,Medicaid,True,ICU,1,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00398,80,Male,Black,2023-05-16,2023-05-19,COPD,0,14,2,6,Expired,Medicaid,False,Oncology,0,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00399,70,Female,Asian,2023-03-01,2023-03-02,Pneumonia,3,13,3,4,Home,Self-pay,True,ICU,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00400,62,Male,Hispanic,2023-02-24,2023-03-02,Diabetes,3,7,2,4,Rehab,Private,True,Oncology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00401,31,Female,Hispanic,2023-10-11,2023-10-15,Heart Attack,4,12,5,0,AMA,Self-pay,True,ER,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00402,86,Female,Other,2023-03-21,2023-03-31,Kidney Disease,2,15,5,8,AMA,Private,True,Oncology,0,Patient admitted for kidney disease. Condition critical. Follow-up required.
+PID00403,84,Male,Hispanic,2023-05-20,2023-05-26,Pneumonia,0,19,0,0,Rehab,Medicaid,True,Surgery,1,Patient admitted for pneumonia. Condition critical. Follow-up required.
+PID00404,52,Male,Black,2023-05-25,2023-05-26,CHF,2,11,3,4,AMA,Private,False,ICU,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00405,59,Female,Black,2023-11-06,2023-11-09,COVID-19,1,15,0,9,AMA,Medicaid,True,Cardiology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00406,62,Male,White,2023-04-18,2023-04-23,COPD,2,12,3,8,Expired,Medicaid,True,Surgery,0,Patient admitted for copd. Condition critical. Follow-up required.
+PID00407,63,Male,Black,2023-06-25,2023-06-26,Pneumonia,3,3,2,3,Expired,Medicare,False,ICU,1,Patient admitted for pneumonia. Condition critical. No follow-up scheduled.
+PID00408,48,Male,Hispanic,2023-04-15,2023-04-18,Diabetes,0,17,5,7,Rehab,Private,True,ICU,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00409,32,Male,Black,2023-12-18,2023-12-25,Pneumonia,2,3,0,5,Home,Private,False,Cardiology,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00410,31,Male,Other,2023-11-21,2023-11-30,Heart Attack,0,19,2,10,AMA,Private,False,ER,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00411,65,Female,White,2023-05-16,2023-05-18,CHF,0,20,5,2,Home,Self-pay,False,Surgery,0,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00412,21,Female,Hispanic,2023-09-16,2023-09-18,Kidney Disease,1,4,3,3,Rehab,Medicare,False,Cardiology,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00413,54,Male,White,2023-09-08,2023-09-16,Hypertension,1,3,5,1,Rehab,Medicare,True,Cardiology,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00414,27,Male,Hispanic,2023-05-09,2023-05-17,Stroke,3,16,2,0,Expired,Medicare,True,ER,1,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00415,45,Male,Other,2023-01-27,2023-02-02,Kidney Disease,4,12,0,7,AMA,Self-pay,False,Surgery,1,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00416,53,Female,White,2023-02-17,2023-02-26,Asthma,0,8,0,0,Transferred,Private,False,Cardiology,1,Patient admitted for asthma. Condition critical. No follow-up scheduled.
+PID00417,26,Male,Asian,2023-11-21,2023-12-01,Pneumonia,4,17,5,10,Rehab,Private,True,ER,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00418,87,Female,Hispanic,2023-08-05,2023-08-07,Sepsis,3,7,2,0,AMA,Private,False,Surgery,0,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00419,77,Female,Asian,2023-05-22,2023-05-30,Cancer,0,11,1,3,Home,Medicare,False,Oncology,0,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00420,48,Female,White,2023-01-23,2023-02-01,Sepsis,0,18,3,9,Expired,Medicare,False,ICU,1,Patient admitted for sepsis. Condition critical. No follow-up scheduled.
+PID00421,55,Male,Asian,2023-01-02,2023-01-06,Kidney Disease,5,1,3,9,Home,Medicaid,True,ER,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00422,40,Female,Asian,2023-06-20,2023-06-30,Heart Attack,4,3,2,5,Rehab,Self-pay,False,ICU,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00423,55,Male,White,2023-03-08,2023-03-09,Sepsis,2,4,1,8,Rehab,Self-pay,True,Oncology,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00424,29,Female,Other,2023-11-23,2023-12-02,Diabetes,1,13,0,0,Home,Medicare,True,Cardiology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00425,43,Male,Asian,2023-05-15,2023-05-20,Sepsis,2,6,4,6,Rehab,Medicaid,True,Cardiology,0,Patient admitted for sepsis. Condition critical. Follow-up required.
+PID00426,83,Female,Asian,2023-03-24,2023-04-01,COPD,4,14,4,9,AMA,Private,False,Surgery,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00427,68,Male,Other,2023-08-15,2023-08-16,Hypertension,1,5,2,10,Rehab,Medicare,False,ER,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00428,55,Female,Asian,2023-10-10,2023-10-11,Pneumonia,2,16,1,4,Expired,Self-pay,True,ER,0,Patient admitted for pneumonia. Condition critical. Follow-up required.
+PID00429,43,Male,Asian,2023-12-28,2024-01-05,COVID-19,5,15,1,7,AMA,Self-pay,True,Surgery,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00430,42,Male,Asian,2023-08-07,2023-08-14,Sepsis,1,15,3,6,Transferred,Self-pay,True,ICU,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00431,81,Male,Black,2023-10-15,2023-10-22,CHF,0,4,0,3,Rehab,Private,False,Cardiology,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00432,56,Male,Other,2023-01-05,2023-01-07,COVID-19,2,8,5,3,Rehab,Self-pay,False,Cardiology,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00433,31,Female,Asian,2023-02-27,2023-03-07,Hypertension,1,16,1,5,Expired,Private,True,ER,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00434,74,Female,Other,2023-02-08,2023-02-16,Heart Attack,5,16,5,5,Expired,Private,True,ER,1,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00435,32,Male,Hispanic,2023-12-20,2023-12-22,Hypertension,1,4,4,8,Home,Private,False,Surgery,0,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00436,42,Female,Hispanic,2023-03-18,2023-03-20,Sepsis,1,13,5,4,Home,Medicare,True,Oncology,1,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00437,49,Male,Asian,2023-10-07,2023-10-13,Hypertension,5,13,0,7,Home,Private,False,ICU,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00438,36,Male,Other,2023-01-19,2023-01-29,COVID-19,2,2,0,4,Expired,Medicaid,False,Oncology,0,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00439,81,Female,Other,2023-07-09,2023-07-12,Cancer,3,3,5,1,Home,Self-pay,True,Oncology,1,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00440,32,Male,Other,2023-10-26,2023-10-28,Heart Attack,2,8,2,5,Home,Medicare,True,ER,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00441,78,Male,Black,2023-10-10,2023-10-13,Sepsis,4,15,1,8,Transferred,Self-pay,False,ER,1,Patient admitted for sepsis. Condition critical. No follow-up scheduled.
+PID00442,38,Female,Hispanic,2023-03-17,2023-03-22,Diabetes,5,11,2,2,Home,Private,False,ER,0,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00443,68,Male,Other,2023-08-09,2023-08-19,Kidney Disease,2,9,5,0,Rehab,Medicare,False,Oncology,0,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00444,31,Male,Other,2023-03-07,2023-03-17,COPD,1,7,1,0,Expired,Medicaid,False,ICU,0,Patient admitted for copd. Condition critical. No follow-up scheduled.
+PID00445,80,Male,Black,2023-01-22,2023-01-31,Stroke,5,13,3,2,AMA,Private,False,ER,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00446,38,Male,Black,2023-06-07,2023-06-13,Asthma,0,2,2,9,Transferred,Self-pay,True,Cardiology,0,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00447,28,Female,Other,2023-07-06,2023-07-13,Heart Attack,2,8,2,4,Expired,Medicaid,False,ICU,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00448,47,Female,White,2023-01-21,2023-01-31,Hypertension,5,7,5,2,Expired,Private,False,Cardiology,1,Patient admitted for hypertension. Condition critical. No follow-up scheduled.
+PID00449,71,Female,Other,2023-07-03,2023-07-12,Diabetes,2,12,4,8,Rehab,Medicaid,False,ICU,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00450,35,Male,Other,2023-04-18,2023-04-23,Pneumonia,5,19,5,7,Home,Private,True,ER,1,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00451,88,Male,Black,2023-12-16,2023-12-24,Pneumonia,1,7,2,2,Rehab,Medicare,True,Surgery,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00452,31,Female,Black,2023-05-08,2023-05-17,Asthma,0,10,1,8,Home,Private,False,ER,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00453,44,Male,Other,2023-12-08,2023-12-18,Heart Attack,0,16,4,5,Home,Medicare,False,Oncology,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00454,71,Male,Other,2023-02-22,2023-03-01,Heart Attack,4,3,5,6,Expired,Private,True,Oncology,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00455,72,Male,Other,2023-07-01,2023-07-03,COPD,5,10,5,3,Home,Private,True,ICU,1,Patient admitted for copd. Condition stable. Follow-up required.
+PID00456,42,Male,Black,2023-10-14,2023-10-16,Hypertension,2,6,2,3,Transferred,Self-pay,True,Oncology,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00457,35,Female,Other,2023-07-28,2023-08-06,Cancer,0,18,2,1,Transferred,Medicaid,True,ER,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00458,76,Female,Other,2023-11-14,2023-11-18,Asthma,0,18,3,4,Transferred,Medicaid,False,Cardiology,1,Patient admitted for asthma. Condition critical. No follow-up scheduled.
+PID00459,58,Female,Asian,2023-03-21,2023-03-28,COPD,3,5,5,7,Expired,Medicaid,True,ER,1,Patient admitted for copd. Condition stable. Follow-up required.
+PID00460,72,Male,White,2023-05-02,2023-05-10,Hypertension,3,7,2,6,Rehab,Private,False,ICU,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00461,61,Female,Hispanic,2023-03-25,2023-03-29,COVID-19,0,2,0,6,AMA,Private,False,Oncology,1,Patient admitted for covid-19. Condition critical. No follow-up scheduled.
+PID00462,77,Female,White,2023-04-01,2023-04-08,Diabetes,5,11,4,5,Home,Private,True,Cardiology,1,Patient admitted for diabetes. Condition critical. Follow-up required.
+PID00463,58,Male,Asian,2023-07-31,2023-08-06,Kidney Disease,4,13,0,2,AMA,Medicare,True,Surgery,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00464,33,Male,Hispanic,2023-01-13,2023-01-21,Cancer,0,5,4,4,Rehab,Medicare,True,Cardiology,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00465,24,Female,Other,2023-04-02,2023-04-09,COVID-19,1,6,5,0,Rehab,Self-pay,True,Cardiology,1,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00466,54,Female,Asian,2023-06-20,2023-06-27,COVID-19,2,14,3,6,Expired,Private,False,ER,0,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00467,37,Female,Other,2023-07-30,2023-08-01,Stroke,4,12,2,8,Transferred,Medicaid,False,Surgery,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00468,28,Female,Black,2023-12-09,2023-12-15,Pneumonia,1,4,2,0,Transferred,Medicaid,False,ICU,0,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00469,77,Male,Asian,2023-05-08,2023-05-15,CHF,4,6,2,1,Rehab,Self-pay,True,ICU,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00470,36,Female,Black,2023-05-17,2023-05-23,Diabetes,1,10,5,2,Expired,Medicaid,False,Cardiology,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00471,26,Female,Asian,2023-03-23,2023-03-28,Pneumonia,2,18,4,2,Expired,Self-pay,True,Cardiology,1,Patient admitted for pneumonia. Condition critical. Follow-up required.
+PID00472,65,Male,Asian,2023-12-26,2024-01-01,Sepsis,2,15,2,7,Home,Private,False,Oncology,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00473,32,Female,Black,2023-02-25,2023-02-28,COVID-19,3,8,0,6,Transferred,Medicaid,True,Surgery,0,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00474,59,Male,Hispanic,2023-07-15,2023-07-23,CHF,5,9,2,5,Rehab,Private,False,Cardiology,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00475,61,Male,White,2023-01-20,2023-01-22,Heart Attack,1,5,5,9,AMA,Medicare,False,Oncology,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00476,28,Male,Other,2023-08-29,2023-08-31,Pneumonia,3,10,3,9,Transferred,Medicaid,True,Surgery,0,Patient admitted for pneumonia. Condition critical. Follow-up required.
+PID00477,69,Female,Asian,2023-04-24,2023-04-26,COPD,1,20,0,10,Home,Medicare,False,ICU,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00478,46,Female,Other,2023-04-13,2023-04-15,Cancer,3,6,2,3,Expired,Medicaid,False,Oncology,0,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00479,85,Male,Black,2023-08-24,2023-08-31,Pneumonia,2,16,2,8,Rehab,Private,True,Surgery,1,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00480,24,Female,Other,2023-06-29,2023-07-01,Stroke,4,3,1,0,Transferred,Self-pay,True,Oncology,0,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00481,48,Female,Black,2023-06-06,2023-06-12,Kidney Disease,3,10,4,10,AMA,Private,True,Cardiology,1,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00482,56,Male,Other,2023-04-27,2023-04-30,COPD,1,11,0,1,Home,Private,True,ER,0,Patient admitted for copd. Condition critical. Follow-up required.
+PID00483,57,Male,White,2023-04-25,2023-05-04,Diabetes,1,11,1,3,Home,Private,True,ICU,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00484,27,Female,White,2023-01-13,2023-01-14,Diabetes,5,17,3,2,Transferred,Medicaid,False,Cardiology,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00485,84,Male,White,2023-12-04,2023-12-14,Diabetes,2,4,4,0,AMA,Self-pay,True,Cardiology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00486,36,Female,White,2023-04-09,2023-04-18,Diabetes,1,4,0,4,Home,Medicare,False,Surgery,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00487,64,Female,White,2023-07-24,2023-08-02,Kidney Disease,0,17,2,6,Rehab,Private,False,Oncology,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00488,23,Female,White,2023-06-18,2023-06-24,Pneumonia,4,9,0,1,Home,Medicaid,True,ICU,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00489,55,Female,Black,2023-05-23,2023-05-25,Hypertension,3,19,2,4,AMA,Medicare,False,Cardiology,0,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00490,89,Male,Asian,2023-02-05,2023-02-12,Pneumonia,5,5,4,5,Expired,Private,False,Surgery,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00491,50,Male,Other,2023-05-23,2023-05-29,COVID-19,4,6,2,10,Expired,Medicare,True,ICU,0,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00492,38,Male,White,2023-06-29,2023-07-06,Sepsis,2,3,3,6,Transferred,Private,False,Oncology,1,Patient admitted for sepsis. Condition critical. No follow-up scheduled.
+PID00493,80,Male,Black,2023-11-25,2023-11-26,Cancer,5,1,5,0,AMA,Medicare,True,Cardiology,1,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00494,73,Female,Black,2023-09-18,2023-09-23,CHF,3,20,2,6,Home,Medicare,True,Cardiology,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00495,58,Female,Black,2023-07-24,2023-08-03,Hypertension,3,16,3,3,Home,Self-pay,True,Cardiology,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00496,38,Male,Asian,2023-12-14,2023-12-19,Hypertension,0,11,5,7,Expired,Self-pay,False,ICU,0,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00497,58,Female,Other,2023-10-02,2023-10-08,COVID-19,2,13,4,3,Expired,Private,False,ICU,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00498,86,Female,Asian,2023-06-19,2023-06-21,Pneumonia,5,10,4,5,Rehab,Medicaid,False,ICU,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00499,64,Female,Hispanic,2023-01-15,2023-01-25,Hypertension,5,3,0,8,Expired,Self-pay,False,ICU,0,Patient admitted for hypertension. Condition critical. No follow-up scheduled.
+PID00500,32,Male,Black,2023-03-01,2023-03-10,Asthma,1,9,3,4,Rehab,Medicare,True,Surgery,0,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00501,77,Male,Hispanic,2023-05-14,2023-05-18,Asthma,0,12,3,3,Home,Self-pay,False,ER,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00502,39,Male,White,2023-04-02,2023-04-05,Sepsis,0,14,1,7,Rehab,Self-pay,True,Surgery,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00503,80,Female,White,2023-10-25,2023-11-02,Heart Attack,5,1,1,8,Rehab,Private,False,Cardiology,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00504,58,Male,Asian,2023-05-16,2023-05-20,CHF,5,18,5,3,Transferred,Self-pay,False,Surgery,1,Patient admitted for chf. Condition critical. No follow-up scheduled.
+PID00505,20,Male,Other,2023-01-20,2023-01-22,Stroke,4,17,5,2,Expired,Self-pay,False,Oncology,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00506,22,Male,Hispanic,2023-02-25,2023-03-03,Kidney Disease,4,9,1,7,Rehab,Medicare,False,ICU,1,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00507,81,Male,Other,2023-11-02,2023-11-11,Pneumonia,4,9,5,4,Home,Self-pay,False,Oncology,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00508,82,Male,Asian,2023-08-11,2023-08-17,Kidney Disease,0,10,2,1,AMA,Medicare,True,Oncology,0,Patient admitted for kidney disease. Condition critical. Follow-up required.
+PID00509,44,Male,White,2023-06-26,2023-06-28,Stroke,1,19,1,9,Rehab,Self-pay,False,Cardiology,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00510,75,Female,Other,2023-06-10,2023-06-15,Pneumonia,3,15,3,8,Expired,Self-pay,False,ICU,1,Patient admitted for pneumonia. Condition critical. No follow-up scheduled.
+PID00511,52,Female,Other,2023-08-12,2023-08-22,Pneumonia,4,5,2,2,Transferred,Medicaid,False,Oncology,0,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00512,57,Male,White,2023-11-07,2023-11-11,CHF,1,15,5,1,Home,Self-pay,False,Cardiology,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00513,25,Male,Hispanic,2023-09-19,2023-09-26,Kidney Disease,2,20,4,0,Transferred,Medicare,True,ICU,1,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00514,77,Female,White,2023-03-01,2023-03-10,Asthma,4,2,0,7,AMA,Medicare,False,ER,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00515,63,Female,Other,2023-07-17,2023-07-27,Diabetes,3,13,1,10,Rehab,Private,True,Cardiology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00516,64,Male,Hispanic,2023-10-23,2023-11-02,Kidney Disease,2,16,4,2,Rehab,Private,False,Surgery,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00517,51,Male,Hispanic,2023-04-08,2023-04-17,Cancer,2,15,5,6,Expired,Medicaid,True,ICU,1,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00518,64,Male,White,2023-05-11,2023-05-12,Cancer,3,10,3,0,Rehab,Medicare,True,Oncology,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00519,80,Male,Other,2023-01-23,2023-02-02,Pneumonia,4,14,0,0,Home,Medicare,True,Oncology,0,Patient admitted for pneumonia. Condition critical. Follow-up required.
+PID00520,66,Female,Asian,2023-12-29,2024-01-03,Diabetes,0,10,4,8,AMA,Medicare,True,Surgery,1,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00521,40,Male,Other,2023-08-12,2023-08-13,COPD,3,14,0,7,Transferred,Medicaid,True,Surgery,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00522,55,Male,Black,2023-01-01,2023-01-04,Stroke,3,9,1,2,AMA,Medicare,False,Oncology,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00523,38,Male,Asian,2023-09-24,2023-09-29,Sepsis,3,14,5,5,Rehab,Private,True,ICU,1,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00524,39,Male,Hispanic,2023-10-03,2023-10-08,Diabetes,2,3,3,10,Transferred,Medicaid,False,Cardiology,1,Patient admitted for diabetes. Condition critical. No follow-up scheduled.
+PID00525,76,Female,Asian,2023-12-18,2023-12-24,Sepsis,1,20,5,2,Expired,Private,True,Surgery,1,Patient admitted for sepsis. Condition critical. Follow-up required.
+PID00526,37,Female,Hispanic,2023-12-10,2023-12-16,Kidney Disease,0,16,0,3,AMA,Private,True,Surgery,1,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00527,66,Female,Hispanic,2023-04-11,2023-04-12,Kidney Disease,4,2,4,0,Transferred,Medicaid,False,Surgery,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00528,68,Male,Asian,2023-07-06,2023-07-09,Sepsis,4,10,1,4,Transferred,Self-pay,True,ER,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00529,33,Male,Hispanic,2023-08-09,2023-08-12,Heart Attack,1,3,1,0,Transferred,Self-pay,True,ICU,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00530,34,Female,Hispanic,2023-02-05,2023-02-15,Stroke,3,11,5,0,Home,Private,True,ICU,1,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00531,50,Male,Black,2023-12-07,2023-12-14,Diabetes,0,11,4,9,AMA,Self-pay,True,ICU,1,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00532,20,Male,Other,2023-06-19,2023-06-21,COPD,4,13,4,10,Transferred,Medicare,False,ICU,1,Patient admitted for copd. Condition critical. No follow-up scheduled.
+PID00533,73,Female,Other,2023-11-16,2023-11-19,Pneumonia,5,7,0,10,AMA,Medicaid,True,ICU,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00534,22,Female,Black,2023-06-10,2023-06-11,CHF,4,17,5,6,Transferred,Private,True,Oncology,1,Patient admitted for chf. Condition critical. Follow-up required.
+PID00535,35,Female,Asian,2023-12-06,2023-12-08,Kidney Disease,3,2,5,5,Expired,Medicare,False,Surgery,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00536,76,Female,White,2023-03-05,2023-03-14,Cancer,5,12,2,1,Expired,Self-pay,False,Oncology,1,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00537,31,Male,White,2023-06-03,2023-06-07,Stroke,1,10,5,10,Expired,Medicare,True,ER,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00538,35,Male,White,2023-09-17,2023-09-24,CHF,0,18,1,1,Rehab,Self-pay,True,Cardiology,1,Patient admitted for chf. Condition stable. Follow-up required.
+PID00539,43,Female,Black,2023-06-08,2023-06-15,COPD,1,11,0,10,Transferred,Private,False,Surgery,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00540,47,Male,Black,2023-12-08,2023-12-16,Hypertension,1,16,4,6,Rehab,Medicare,True,ER,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00541,27,Female,Hispanic,2023-07-29,2023-08-04,COVID-19,0,17,5,0,AMA,Medicaid,False,Oncology,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00542,55,Female,White,2023-06-17,2023-06-20,Pneumonia,0,19,0,1,Rehab,Private,True,Cardiology,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00543,27,Male,Asian,2023-07-26,2023-08-01,Kidney Disease,4,18,5,7,AMA,Medicare,False,ER,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00544,77,Female,Asian,2023-12-23,2023-12-28,Pneumonia,4,3,4,5,AMA,Medicare,False,Cardiology,1,Patient admitted for pneumonia. Condition critical. No follow-up scheduled.
+PID00545,79,Male,White,2023-06-01,2023-06-07,Heart Attack,0,16,3,1,AMA,Self-pay,False,ER,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00546,69,Male,White,2023-10-11,2023-10-21,CHF,5,6,4,6,Rehab,Private,True,Oncology,1,Patient admitted for chf. Condition stable. Follow-up required.
+PID00547,47,Male,White,2023-03-07,2023-03-17,Pneumonia,2,12,4,3,Transferred,Private,True,Cardiology,1,Patient admitted for pneumonia. Condition critical. Follow-up required.
+PID00548,60,Male,Black,2023-04-09,2023-04-11,COVID-19,4,11,4,1,Rehab,Private,True,ER,1,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00549,83,Female,Black,2023-08-04,2023-08-05,Hypertension,2,15,5,5,Transferred,Private,True,Oncology,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00550,46,Male,Black,2023-12-07,2023-12-10,CHF,5,15,2,10,Transferred,Self-pay,False,Surgery,0,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00551,82,Female,Other,2023-07-14,2023-07-17,Kidney Disease,0,16,4,8,AMA,Medicaid,False,Oncology,0,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00552,36,Female,Asian,2023-12-13,2023-12-23,Diabetes,5,10,1,10,Rehab,Private,False,Oncology,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00553,52,Female,Asian,2023-03-31,2023-04-01,Cancer,4,12,1,8,Transferred,Self-pay,True,Surgery,0,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00554,48,Female,Hispanic,2023-11-12,2023-11-14,CHF,1,13,0,7,Expired,Medicaid,True,Oncology,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00555,32,Male,Black,2023-10-19,2023-10-24,Asthma,0,4,2,2,Transferred,Medicaid,True,Surgery,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00556,65,Male,Other,2023-06-04,2023-06-12,Heart Attack,3,7,0,2,Expired,Self-pay,False,Surgery,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00557,54,Female,Other,2023-07-27,2023-08-03,Hypertension,2,2,1,1,Rehab,Private,True,Surgery,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00558,25,Female,Asian,2023-10-08,2023-10-16,Heart Attack,5,15,1,4,Rehab,Medicaid,True,ER,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00559,88,Male,Black,2023-01-01,2023-01-11,CHF,0,8,3,3,Rehab,Private,False,Cardiology,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00560,66,Female,Hispanic,2023-06-05,2023-06-13,CHF,5,7,4,6,Transferred,Private,False,ER,1,Patient admitted for chf. Condition critical. No follow-up scheduled.
+PID00561,44,Male,Black,2023-05-27,2023-06-03,Asthma,0,15,1,3,Home,Medicare,True,Surgery,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00562,85,Female,White,2023-04-18,2023-04-23,Kidney Disease,4,14,5,8,Transferred,Private,False,Cardiology,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00563,29,Male,Black,2023-08-09,2023-08-13,Heart Attack,4,8,5,1,Transferred,Medicare,True,Cardiology,0,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00564,75,Female,White,2023-10-24,2023-11-02,CHF,4,12,0,10,AMA,Medicaid,False,Surgery,0,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00565,49,Female,White,2023-11-07,2023-11-09,Cancer,5,13,0,5,AMA,Self-pay,False,Cardiology,0,Patient admitted for cancer. Condition critical. No follow-up scheduled.
+PID00566,24,Male,Hispanic,2023-12-02,2023-12-08,Pneumonia,3,11,4,6,Transferred,Medicare,False,Cardiology,0,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00567,52,Female,Asian,2023-06-14,2023-06-21,Kidney Disease,4,17,4,3,Expired,Self-pay,True,ER,0,Patient admitted for kidney disease. Condition critical. Follow-up required.
+PID00568,84,Female,Black,2023-08-27,2023-08-29,Cancer,0,17,3,5,AMA,Medicaid,True,Cardiology,1,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00569,37,Male,White,2023-08-15,2023-08-20,Kidney Disease,4,4,2,6,Transferred,Private,True,Surgery,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00570,68,Female,Black,2023-08-15,2023-08-25,Cancer,1,8,0,3,Home,Medicaid,False,ICU,1,Patient admitted for cancer. Condition critical. No follow-up scheduled.
+PID00571,30,Male,Asian,2023-12-12,2023-12-20,COVID-19,4,5,4,7,Expired,Self-pay,False,ICU,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00572,45,Male,Asian,2023-04-20,2023-04-29,Hypertension,5,16,0,8,Rehab,Medicaid,False,ICU,0,Patient admitted for hypertension. Condition critical. No follow-up scheduled.
+PID00573,82,Female,Other,2023-09-19,2023-09-24,Cancer,3,4,4,0,Transferred,Private,False,Surgery,1,Patient admitted for cancer. Condition critical. No follow-up scheduled.
+PID00574,78,Female,Asian,2023-08-31,2023-09-01,Sepsis,1,15,1,6,Transferred,Medicaid,True,ICU,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00575,46,Female,Hispanic,2023-03-28,2023-04-01,Cancer,5,12,0,8,Expired,Private,True,ER,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00576,68,Female,White,2023-12-04,2023-12-11,Diabetes,5,5,1,9,AMA,Medicare,True,Surgery,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00577,52,Female,Other,2023-02-13,2023-02-23,Diabetes,5,16,0,4,AMA,Self-pay,False,Surgery,1,Patient admitted for diabetes. Condition critical. No follow-up scheduled.
+PID00578,20,Female,Hispanic,2023-05-26,2023-05-27,Stroke,0,14,2,1,AMA,Private,False,Surgery,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00579,40,Female,Black,2023-09-21,2023-09-22,Sepsis,5,10,3,9,Rehab,Private,True,Cardiology,0,Patient admitted for sepsis. Condition critical. Follow-up required.
+PID00580,74,Male,White,2023-12-06,2023-12-10,Sepsis,0,7,5,5,Expired,Medicaid,False,Cardiology,0,Patient admitted for sepsis. Condition critical. No follow-up scheduled.
+PID00581,25,Female,Asian,2023-11-21,2023-11-26,Pneumonia,5,13,5,6,Expired,Medicare,True,Cardiology,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00582,88,Male,White,2023-11-14,2023-11-18,Sepsis,2,20,5,1,AMA,Private,False,Oncology,0,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00583,24,Female,Black,2023-06-21,2023-06-24,Pneumonia,1,5,1,1,AMA,Medicare,False,ER,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00584,22,Female,Other,2023-02-17,2023-02-22,Stroke,2,3,4,9,Home,Medicare,True,Surgery,1,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00585,72,Male,Other,2023-05-01,2023-05-06,Stroke,5,15,5,9,Home,Medicaid,True,Surgery,1,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00586,42,Female,Other,2023-12-11,2023-12-17,Hypertension,1,4,2,0,Transferred,Private,False,Cardiology,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00587,72,Female,Asian,2023-06-08,2023-06-10,Diabetes,1,15,5,3,Transferred,Medicaid,True,Surgery,1,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00588,56,Male,Hispanic,2023-04-26,2023-04-27,Cancer,3,14,0,6,Expired,Self-pay,True,Surgery,0,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00589,36,Female,Hispanic,2023-04-12,2023-04-20,Cancer,2,20,1,8,Expired,Self-pay,False,ICU,1,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00590,20,Female,White,2023-03-17,2023-03-24,Asthma,3,19,0,2,Rehab,Private,False,Surgery,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00591,70,Female,Asian,2023-01-13,2023-01-16,Asthma,1,13,0,10,Rehab,Medicare,False,Oncology,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00592,64,Male,Other,2023-01-24,2023-01-27,COPD,0,10,0,6,Home,Private,True,Cardiology,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00593,23,Female,Other,2023-05-06,2023-05-13,Kidney Disease,1,5,3,6,Transferred,Private,False,ER,0,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00594,81,Female,Black,2023-09-01,2023-09-10,Hypertension,3,20,3,6,Home,Self-pay,False,ER,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00595,84,Female,Black,2023-11-09,2023-11-13,COPD,2,20,4,1,Home,Self-pay,False,ICU,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00596,51,Female,Other,2023-02-07,2023-02-16,COPD,5,6,1,5,Transferred,Medicare,False,ER,0,Patient admitted for copd. Condition critical. No follow-up scheduled.
+PID00597,53,Male,Other,2023-08-22,2023-08-31,CHF,5,4,2,1,Rehab,Medicare,False,ER,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00598,58,Male,Asian,2023-08-01,2023-08-07,CHF,2,2,2,5,Transferred,Private,True,Cardiology,0,Patient admitted for chf. Condition critical. Follow-up required.
+PID00599,45,Female,Hispanic,2023-11-19,2023-11-21,Heart Attack,5,16,2,9,AMA,Medicaid,False,Cardiology,0,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00600,53,Female,Black,2023-10-22,2023-10-29,COPD,5,18,0,2,AMA,Private,False,Oncology,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00601,73,Male,Hispanic,2023-04-10,2023-04-11,Sepsis,3,5,3,1,AMA,Medicare,True,ICU,0,Patient admitted for sepsis. Condition critical. Follow-up required.
+PID00602,22,Male,Asian,2023-12-23,2023-12-30,Kidney Disease,2,4,1,5,Expired,Medicaid,False,ER,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00603,69,Female,Other,2023-07-16,2023-07-17,Hypertension,4,13,0,1,Rehab,Self-pay,False,Oncology,0,Patient admitted for hypertension. Condition critical. No follow-up scheduled.
+PID00604,31,Male,Hispanic,2023-09-11,2023-09-19,COPD,0,19,3,4,Rehab,Medicare,True,ICU,1,Patient admitted for copd. Condition critical. Follow-up required.
+PID00605,84,Female,Other,2023-07-24,2023-07-26,COVID-19,0,2,3,1,Expired,Medicare,False,ER,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00606,73,Male,Other,2023-05-05,2023-05-11,Cancer,5,13,5,2,Home,Medicaid,True,ER,1,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00607,24,Male,White,2023-03-17,2023-03-27,Kidney Disease,0,11,5,2,AMA,Medicare,False,Cardiology,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00608,76,Male,Hispanic,2023-12-02,2023-12-09,CHF,2,4,1,5,AMA,Medicare,True,Surgery,0,Patient admitted for chf. Condition critical. Follow-up required.
+PID00609,36,Male,Hispanic,2023-12-19,2023-12-29,Heart Attack,2,20,1,5,Home,Medicare,True,ICU,1,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00610,66,Female,Other,2023-01-03,2023-01-10,Cancer,1,20,1,9,Transferred,Medicare,False,ER,1,Patient admitted for cancer. Condition critical. No follow-up scheduled.
+PID00611,42,Male,Asian,2023-02-24,2023-03-03,CHF,1,15,0,2,Transferred,Medicare,True,ICU,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00612,33,Male,White,2023-08-06,2023-08-11,CHF,0,4,4,2,Rehab,Medicare,True,Oncology,1,Patient admitted for chf. Condition stable. Follow-up required.
+PID00613,85,Female,Other,2023-04-23,2023-04-25,Kidney Disease,4,9,1,0,Expired,Medicare,False,Oncology,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00614,70,Male,Black,2023-04-01,2023-04-08,CHF,1,7,5,6,Rehab,Medicare,False,Surgery,0,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00615,57,Male,Black,2023-12-23,2023-12-24,COVID-19,1,19,4,7,Transferred,Self-pay,True,ER,1,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00616,83,Female,White,2023-09-23,2023-09-29,Stroke,2,19,0,1,Home,Medicare,False,Cardiology,0,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00617,57,Male,Asian,2023-08-26,2023-08-29,Heart Attack,4,6,4,3,Rehab,Self-pay,True,ER,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00618,69,Female,Other,2023-01-26,2023-02-05,Diabetes,5,6,2,9,AMA,Self-pay,True,ICU,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00619,49,Female,Hispanic,2023-10-13,2023-10-21,Stroke,0,20,4,6,AMA,Private,False,Oncology,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00620,70,Female,White,2023-05-08,2023-05-14,Diabetes,1,15,1,7,Home,Private,False,ICU,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00621,82,Female,Asian,2023-03-04,2023-03-06,Asthma,4,15,0,0,Transferred,Self-pay,True,Surgery,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00622,71,Male,Hispanic,2023-08-22,2023-08-29,Asthma,4,20,1,3,AMA,Self-pay,False,Oncology,0,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00623,57,Female,Black,2023-03-10,2023-03-12,CHF,0,9,5,5,AMA,Medicare,False,Cardiology,1,Patient admitted for chf. Condition critical. No follow-up scheduled.
+PID00624,49,Male,Black,2023-08-26,2023-08-30,Hypertension,4,4,2,2,Expired,Private,True,Oncology,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00625,70,Male,Hispanic,2023-12-08,2023-12-15,Hypertension,4,18,5,4,Rehab,Medicaid,True,ER,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00626,24,Male,White,2023-09-29,2023-10-09,Diabetes,4,18,1,9,Transferred,Private,True,ER,1,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00627,48,Male,Black,2023-10-14,2023-10-21,Cancer,1,5,1,8,Rehab,Self-pay,True,Oncology,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00628,23,Male,Other,2023-11-01,2023-11-10,Kidney Disease,0,20,1,10,Transferred,Self-pay,True,Surgery,1,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00629,29,Male,Hispanic,2023-06-12,2023-06-14,CHF,4,11,3,2,AMA,Medicare,True,ER,0,Patient admitted for chf. Condition critical. Follow-up required.
+PID00630,75,Male,Hispanic,2023-08-15,2023-08-22,Kidney Disease,4,5,2,4,Expired,Medicare,False,ER,0,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00631,36,Male,Black,2023-11-10,2023-11-15,Stroke,1,4,1,7,Rehab,Private,True,Cardiology,0,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00632,36,Male,White,2023-09-16,2023-09-22,Hypertension,0,12,1,5,AMA,Medicare,False,Oncology,0,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00633,88,Male,Other,2023-08-07,2023-08-11,Sepsis,2,2,5,3,Transferred,Medicaid,False,ER,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00634,53,Female,White,2023-10-08,2023-10-14,Heart Attack,1,13,5,7,Rehab,Medicaid,True,Surgery,1,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00635,25,Female,Asian,2023-08-17,2023-08-20,Stroke,0,10,1,10,Rehab,Medicare,False,ICU,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00636,72,Female,Asian,2023-03-23,2023-03-25,Heart Attack,4,9,0,2,AMA,Medicaid,True,Oncology,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00637,85,Male,Black,2023-09-01,2023-09-10,COVID-19,0,10,3,2,Rehab,Medicaid,False,Cardiology,1,Patient admitted for covid-19. Condition critical. No follow-up scheduled.
+PID00638,62,Female,Black,2023-08-19,2023-08-21,Stroke,0,7,5,3,Expired,Private,True,ER,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00639,42,Female,Black,2023-05-13,2023-05-22,Diabetes,5,4,0,8,Expired,Medicaid,True,Surgery,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00640,74,Female,Asian,2023-05-07,2023-05-16,COVID-19,0,19,3,4,AMA,Self-pay,True,Oncology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00641,35,Male,White,2023-11-23,2023-11-27,Pneumonia,2,10,1,7,Transferred,Self-pay,True,Surgery,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00642,27,Male,White,2023-05-22,2023-05-28,Stroke,0,3,2,5,AMA,Private,False,Surgery,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00643,23,Male,Black,2023-09-24,2023-09-30,COVID-19,2,19,4,2,Expired,Medicare,False,Cardiology,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00644,23,Male,Other,2023-09-06,2023-09-09,CHF,4,2,4,7,Home,Private,False,Oncology,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00645,75,Female,White,2023-11-17,2023-11-21,Heart Attack,2,20,1,8,Home,Medicare,False,ER,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00646,44,Female,Asian,2023-05-03,2023-05-05,COPD,4,10,5,7,Rehab,Medicare,False,Cardiology,0,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00647,86,Female,Hispanic,2023-05-21,2023-05-24,COPD,4,2,0,3,Rehab,Medicare,True,ER,0,Patient admitted for copd. Condition critical. Follow-up required.
+PID00648,86,Female,Hispanic,2023-08-14,2023-08-19,CHF,2,2,2,10,Home,Medicare,True,ICU,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00649,46,Male,Hispanic,2023-02-09,2023-02-13,Pneumonia,1,17,3,5,Expired,Medicare,True,Surgery,1,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00650,51,Male,Other,2024-01-01,2024-01-04,Pneumonia,3,16,1,0,Rehab,Private,True,ICU,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00651,69,Male,Black,2023-05-27,2023-06-06,Diabetes,0,16,2,3,AMA,Medicare,True,Surgery,1,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00652,80,Female,Asian,2023-05-01,2023-05-04,Hypertension,5,14,2,7,AMA,Medicaid,False,Cardiology,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00653,70,Male,Other,2023-05-20,2023-05-22,Kidney Disease,3,7,5,0,Expired,Medicaid,True,ER,1,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00654,38,Male,Asian,2023-06-21,2023-06-24,Heart Attack,0,11,3,2,Rehab,Medicare,True,ER,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00655,40,Female,Asian,2023-06-13,2023-06-21,Pneumonia,0,1,2,0,AMA,Medicaid,False,Cardiology,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00656,24,Female,Black,2023-10-04,2023-10-12,Sepsis,4,11,5,8,Rehab,Self-pay,False,Oncology,1,Patient admitted for sepsis. Condition critical. No follow-up scheduled.
+PID00657,61,Male,Hispanic,2023-02-11,2023-02-21,Diabetes,0,4,0,1,Rehab,Private,True,ICU,0,Patient admitted for diabetes. Condition critical. Follow-up required.
+PID00658,80,Male,Black,2023-03-12,2023-03-22,Asthma,5,7,5,8,AMA,Private,True,ICU,0,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00659,41,Male,Other,2023-03-19,2023-03-27,Cancer,0,15,0,3,Home,Medicare,False,ER,1,Patient admitted for cancer. Condition critical. No follow-up scheduled.
+PID00660,40,Male,Other,2023-04-29,2023-05-09,Asthma,2,18,0,1,AMA,Medicare,True,ER,1,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00661,89,Male,Other,2023-07-16,2023-07-26,Diabetes,3,12,2,3,Expired,Self-pay,True,ER,0,Patient admitted for diabetes. Condition critical. Follow-up required.
+PID00662,20,Male,Black,2023-12-22,2023-12-28,Heart Attack,2,17,5,10,Transferred,Medicare,True,Cardiology,1,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00663,24,Female,Asian,2023-03-20,2023-03-26,COVID-19,5,1,0,10,AMA,Medicaid,False,Oncology,1,Patient admitted for covid-19. Condition critical. No follow-up scheduled.
+PID00664,31,Female,Asian,2023-12-28,2023-12-31,Stroke,0,11,3,9,Rehab,Self-pay,True,ICU,0,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00665,65,Female,White,2023-04-20,2023-04-28,Kidney Disease,5,1,2,5,Rehab,Medicaid,True,Surgery,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00666,53,Male,Other,2023-02-02,2023-02-04,Cancer,4,15,5,10,AMA,Private,False,Cardiology,0,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00667,68,Female,Asian,2023-08-01,2023-08-09,Asthma,2,10,5,6,Transferred,Medicaid,False,ICU,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00668,64,Male,White,2023-07-28,2023-08-05,Cancer,2,7,4,2,AMA,Private,False,Oncology,1,Patient admitted for cancer. Condition critical. No follow-up scheduled.
+PID00669,46,Male,Asian,2023-06-19,2023-06-24,Sepsis,1,2,5,2,Transferred,Medicaid,True,Cardiology,1,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00670,45,Female,Other,2023-10-05,2023-10-10,Sepsis,0,10,2,9,Transferred,Private,False,ICU,0,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00671,66,Male,Hispanic,2023-08-27,2023-09-06,COVID-19,4,4,3,7,Expired,Medicare,True,Cardiology,0,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00672,75,Male,Other,2023-08-01,2023-08-02,Sepsis,2,12,5,4,Rehab,Medicaid,False,ICU,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00673,82,Female,Black,2023-02-01,2023-02-07,Diabetes,2,19,4,3,Rehab,Private,True,ICU,1,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00674,67,Female,Asian,2023-04-16,2023-04-25,Kidney Disease,4,11,2,6,Transferred,Medicaid,False,Oncology,0,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00675,80,Female,Asian,2023-08-04,2023-08-06,Heart Attack,5,8,0,6,Rehab,Self-pay,True,Surgery,0,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00676,45,Male,Black,2023-07-19,2023-07-24,COVID-19,5,18,1,8,Home,Medicare,True,Oncology,1,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00677,55,Female,Black,2023-10-27,2023-11-04,Diabetes,0,11,1,8,Transferred,Private,False,ICU,1,Patient admitted for diabetes. Condition critical. No follow-up scheduled.
+PID00678,20,Female,Hispanic,2023-12-23,2023-12-31,COPD,1,11,0,4,Rehab,Self-pay,False,Cardiology,1,Patient admitted for copd. Condition critical. No follow-up scheduled.
+PID00679,27,Male,Asian,2023-01-11,2023-01-12,Stroke,2,13,5,7,Home,Medicaid,True,Oncology,1,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00680,71,Female,Asian,2023-10-22,2023-10-23,Stroke,1,3,1,9,Expired,Self-pay,False,Surgery,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00681,66,Female,Hispanic,2023-07-14,2023-07-20,Sepsis,5,12,1,0,Rehab,Medicaid,True,ICU,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00682,75,Female,White,2023-09-02,2023-09-07,COPD,5,3,0,8,Home,Medicare,False,Oncology,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00683,33,Male,Hispanic,2023-01-04,2023-01-06,Pneumonia,3,10,5,7,AMA,Self-pay,False,Oncology,0,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00684,47,Male,Other,2023-06-30,2023-07-02,Pneumonia,0,17,5,5,AMA,Medicare,True,Oncology,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00685,21,Male,Asian,2023-06-02,2023-06-12,Heart Attack,3,2,0,2,Home,Private,False,Oncology,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00686,45,Male,Black,2023-07-19,2023-07-29,Sepsis,3,17,5,2,Transferred,Medicaid,False,Cardiology,0,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00687,33,Female,Other,2023-08-03,2023-08-12,Asthma,3,16,5,7,Transferred,Medicaid,True,Surgery,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00688,78,Male,Asian,2023-10-03,2023-10-10,Diabetes,0,2,2,4,Rehab,Medicare,True,Surgery,0,Patient admitted for diabetes. Condition critical. Follow-up required.
+PID00689,75,Male,Hispanic,2023-10-07,2023-10-15,Sepsis,0,20,2,9,AMA,Medicare,False,ICU,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00690,26,Female,Other,2023-11-05,2023-11-15,Hypertension,4,6,0,10,Transferred,Private,True,ER,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00691,22,Female,Asian,2023-04-23,2023-05-02,Cancer,1,10,3,6,Transferred,Self-pay,False,Cardiology,0,Patient admitted for cancer. Condition critical. No follow-up scheduled.
+PID00692,42,Female,White,2023-09-07,2023-09-08,Heart Attack,1,10,1,4,AMA,Medicaid,False,ICU,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00693,37,Male,White,2023-04-23,2023-05-01,Stroke,4,8,2,7,Expired,Medicaid,True,ICU,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00694,57,Male,Black,2023-05-20,2023-05-30,Pneumonia,4,1,1,9,Transferred,Private,True,Oncology,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00695,34,Male,Asian,2023-08-12,2023-08-16,CHF,5,13,4,9,Home,Private,True,ER,0,Patient admitted for chf. Condition critical. Follow-up required.
+PID00696,83,Female,White,2023-09-06,2023-09-12,Pneumonia,3,9,0,3,Rehab,Medicare,True,ER,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00697,47,Female,Hispanic,2023-01-15,2023-01-25,Heart Attack,4,10,3,1,Transferred,Medicare,True,Cardiology,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00698,58,Male,Asian,2023-07-19,2023-07-27,Stroke,2,15,4,2,Transferred,Self-pay,True,ER,1,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00699,76,Female,Hispanic,2023-06-22,2023-07-01,Heart Attack,1,5,4,7,Expired,Private,False,ICU,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00700,36,Female,Hispanic,2023-12-09,2023-12-12,Cancer,4,16,5,10,Home,Self-pay,False,ER,1,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00701,63,Female,White,2023-12-14,2023-12-15,Stroke,2,13,4,6,Rehab,Private,True,ER,1,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00702,44,Male,Asian,2023-07-27,2023-08-04,CHF,2,20,0,1,Transferred,Medicaid,False,Surgery,0,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00703,36,Female,Other,2023-03-26,2023-03-28,Sepsis,2,18,2,5,Rehab,Private,False,ICU,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00704,32,Female,White,2023-08-28,2023-09-03,COPD,5,11,0,8,AMA,Private,False,ER,0,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00705,44,Male,White,2023-03-07,2023-03-09,CHF,5,9,2,3,Transferred,Medicaid,False,ER,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00706,87,Male,Asian,2023-11-15,2023-11-24,Stroke,2,16,4,8,Transferred,Private,True,Oncology,1,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00707,29,Female,Asian,2023-10-01,2023-10-04,Stroke,5,2,4,1,AMA,Self-pay,False,ER,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00708,86,Female,Hispanic,2023-01-14,2023-01-15,Hypertension,3,2,3,1,Expired,Medicare,False,ER,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00709,37,Male,Asian,2023-07-21,2023-07-25,COVID-19,2,12,2,8,Transferred,Medicare,True,Surgery,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00710,53,Male,Hispanic,2023-10-31,2023-11-08,Hypertension,3,8,4,6,Rehab,Self-pay,True,ICU,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00711,27,Female,White,2023-10-16,2023-10-24,Kidney Disease,3,9,5,6,Home,Medicaid,True,Cardiology,1,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00712,59,Female,Black,2023-12-06,2023-12-15,Hypertension,2,12,1,0,Rehab,Private,True,ICU,0,Patient admitted for hypertension. Condition critical. Follow-up required.
+PID00713,61,Female,Other,2023-01-14,2023-01-23,Diabetes,1,9,3,10,Expired,Self-pay,False,Oncology,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00714,60,Female,White,2023-02-12,2023-02-22,COPD,2,10,0,5,Home,Medicare,True,ICU,0,Patient admitted for copd. Condition critical. Follow-up required.
+PID00715,25,Male,Asian,2023-11-26,2023-11-29,Cancer,2,2,3,6,Rehab,Medicare,False,ER,0,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00716,71,Female,Other,2023-08-08,2023-08-14,CHF,5,16,1,10,Rehab,Self-pay,False,Oncology,0,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00717,45,Female,Black,2023-03-11,2023-03-17,Stroke,2,20,2,5,AMA,Medicare,True,ICU,1,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00718,83,Male,Black,2023-08-25,2023-08-30,Kidney Disease,1,7,0,5,Expired,Self-pay,True,Oncology,0,Patient admitted for kidney disease. Condition critical. Follow-up required.
+PID00719,78,Female,Hispanic,2023-04-04,2023-04-11,Kidney Disease,5,2,0,1,AMA,Medicare,True,Cardiology,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00720,75,Male,Other,2023-01-26,2023-02-02,Cancer,0,1,2,5,Home,Self-pay,True,ICU,0,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00721,78,Female,Hispanic,2023-05-14,2023-05-20,COPD,0,19,3,3,AMA,Private,True,ER,1,Patient admitted for copd. Condition stable. Follow-up required.
+PID00722,89,Female,White,2023-07-14,2023-07-24,CHF,3,4,4,8,Expired,Private,True,Oncology,1,Patient admitted for chf. Condition stable. Follow-up required.
+PID00723,52,Male,Other,2023-06-17,2023-06-18,Pneumonia,3,2,3,0,Transferred,Private,False,Surgery,0,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00724,72,Male,White,2023-04-19,2023-04-25,Heart Attack,1,14,1,7,Transferred,Private,False,Oncology,0,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00725,41,Female,Hispanic,2023-08-21,2023-08-23,Hypertension,4,2,5,4,Home,Medicare,False,Surgery,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00726,40,Female,Other,2023-06-17,2023-06-23,Heart Attack,0,15,4,0,Transferred,Medicaid,False,ER,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00727,89,Female,Hispanic,2023-06-22,2023-06-24,Heart Attack,3,12,3,3,AMA,Self-pay,True,Cardiology,0,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00728,89,Male,Other,2023-07-14,2023-07-23,Sepsis,0,5,5,0,Home,Medicaid,True,Surgery,1,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00729,23,Female,Hispanic,2023-05-23,2023-05-30,Heart Attack,1,20,5,5,Expired,Medicare,False,Cardiology,0,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00730,81,Male,Black,2023-08-04,2023-08-09,Kidney Disease,1,7,2,1,Home,Medicare,False,Oncology,0,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00731,81,Male,Hispanic,2023-05-10,2023-05-15,Hypertension,4,10,1,4,Home,Medicaid,False,ER,1,Patient admitted for hypertension. Condition critical. No follow-up scheduled.
+PID00732,43,Female,Black,2023-02-11,2023-02-21,Hypertension,4,14,1,6,Rehab,Medicaid,True,Surgery,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00733,74,Male,Hispanic,2023-08-29,2023-09-01,Diabetes,5,14,1,1,Rehab,Medicare,True,Oncology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00734,28,Female,Other,2023-01-10,2023-01-16,COPD,1,5,4,5,Home,Medicare,True,ICU,1,Patient admitted for copd. Condition stable. Follow-up required.
+PID00735,22,Female,Other,2023-10-04,2023-10-06,Sepsis,3,18,0,5,Transferred,Self-pay,False,Oncology,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00736,50,Female,Other,2023-01-27,2023-02-06,Heart Attack,0,14,4,4,Rehab,Private,False,Cardiology,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00737,59,Female,Asian,2023-06-29,2023-07-02,COVID-19,2,2,3,4,Expired,Private,True,ER,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00738,55,Female,White,2023-04-25,2023-05-01,Pneumonia,4,12,5,2,AMA,Self-pay,True,ER,1,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00739,43,Male,Other,2023-11-29,2023-12-04,Stroke,2,6,5,9,Rehab,Medicaid,False,Oncology,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00740,25,Male,Black,2023-02-05,2023-02-12,Diabetes,3,4,0,9,Home,Medicare,False,ICU,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00741,85,Female,Other,2023-11-30,2023-12-03,Hypertension,4,13,3,10,Transferred,Medicaid,True,Cardiology,0,Patient admitted for hypertension. Condition critical. Follow-up required.
+PID00742,23,Female,Asian,2023-01-21,2023-01-31,Hypertension,2,4,0,1,AMA,Private,False,Oncology,0,Patient admitted for hypertension. Condition critical. No follow-up scheduled.
+PID00743,25,Male,Black,2023-01-16,2023-01-18,Asthma,3,14,5,6,Rehab,Private,True,Oncology,1,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00744,70,Male,Asian,2023-05-07,2023-05-12,Sepsis,0,16,4,0,Transferred,Medicaid,True,ER,0,Patient admitted for sepsis. Condition critical. Follow-up required.
+PID00745,81,Male,Black,2023-04-13,2023-04-22,Heart Attack,3,4,1,5,Transferred,Private,False,Cardiology,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00746,76,Male,Hispanic,2023-01-11,2023-01-18,Sepsis,5,1,5,5,Transferred,Medicare,False,ICU,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00747,85,Female,White,2023-11-15,2023-11-21,Asthma,4,13,2,2,Home,Self-pay,False,ER,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00748,27,Female,White,2023-03-20,2023-03-23,Sepsis,1,4,1,1,Expired,Medicaid,True,Oncology,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00749,45,Male,Asian,2023-05-03,2023-05-12,Hypertension,0,20,5,1,Transferred,Medicare,False,ER,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00750,70,Female,White,2023-03-06,2023-03-08,Kidney Disease,2,18,4,8,AMA,Medicare,False,ER,1,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00751,64,Male,Asian,2023-08-31,2023-09-07,CHF,4,6,0,10,Rehab,Private,True,Surgery,0,Patient admitted for chf. Condition critical. Follow-up required.
+PID00752,63,Female,Asian,2023-12-09,2023-12-18,Hypertension,1,3,1,4,AMA,Medicare,True,ER,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00753,24,Male,Asian,2023-02-28,2023-03-06,Diabetes,3,13,4,6,Home,Medicaid,False,ER,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00754,89,Female,White,2023-10-16,2023-10-17,COPD,1,16,3,4,Home,Medicare,True,Cardiology,1,Patient admitted for copd. Condition stable. Follow-up required.
+PID00755,45,Male,Asian,2023-04-22,2023-04-28,Asthma,4,5,2,6,AMA,Self-pay,True,ER,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00756,87,Male,White,2023-08-27,2023-09-01,Pneumonia,4,4,1,3,Expired,Medicare,True,ICU,0,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00757,38,Female,Asian,2023-12-25,2023-12-28,Stroke,5,8,0,7,Home,Medicare,False,Oncology,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00758,39,Male,Other,2023-05-12,2023-05-16,Pneumonia,5,19,3,10,Home,Self-pay,False,Cardiology,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00759,31,Female,Asian,2023-07-08,2023-07-14,Hypertension,1,14,4,9,AMA,Medicare,True,ER,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00760,66,Female,Black,2023-03-27,2023-04-04,Diabetes,3,7,2,10,Home,Medicare,True,ICU,0,Patient admitted for diabetes. Condition critical. Follow-up required.
+PID00761,20,Male,Asian,2023-11-07,2023-11-11,Heart Attack,1,14,0,9,Expired,Private,True,Oncology,0,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00762,33,Female,Hispanic,2023-11-07,2023-11-11,Hypertension,4,6,4,6,Expired,Medicaid,False,Cardiology,0,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00763,83,Female,Asian,2023-02-28,2023-03-03,COPD,4,12,4,9,Expired,Private,True,ICU,1,Patient admitted for copd. Condition critical. Follow-up required.
+PID00764,57,Female,Black,2023-03-25,2023-03-28,Kidney Disease,2,16,1,4,Rehab,Medicaid,True,ER,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00765,56,Female,Black,2023-06-09,2023-06-11,COVID-19,5,17,1,10,Expired,Self-pay,False,Surgery,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00766,30,Female,White,2023-02-25,2023-03-02,Stroke,2,13,0,5,Expired,Self-pay,True,Surgery,0,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00767,22,Male,Other,2023-10-24,2023-10-26,COPD,0,14,5,4,Rehab,Self-pay,False,Cardiology,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00768,52,Female,Asian,2023-01-14,2023-01-23,Asthma,4,7,5,6,Transferred,Medicaid,False,ICU,0,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00769,25,Female,White,2023-06-09,2023-06-18,Heart Attack,2,14,4,1,Home,Medicaid,False,Oncology,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00770,69,Female,Other,2023-10-22,2023-10-31,Asthma,1,15,1,4,Expired,Medicaid,True,ICU,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00771,29,Female,Asian,2023-12-13,2023-12-14,Hypertension,5,12,2,9,Home,Self-pay,True,Surgery,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00772,24,Female,Hispanic,2023-07-12,2023-07-18,Diabetes,5,17,2,2,AMA,Medicaid,False,Cardiology,1,Patient admitted for diabetes. Condition critical. No follow-up scheduled.
+PID00773,42,Male,Asian,2023-07-23,2023-08-02,COPD,3,9,4,8,Home,Medicare,True,ER,1,Patient admitted for copd. Condition stable. Follow-up required.
+PID00774,29,Female,Black,2023-04-12,2023-04-15,Cancer,1,15,1,5,Rehab,Private,False,ICU,0,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00775,63,Male,Black,2023-02-08,2023-02-18,Heart Attack,3,12,0,9,Home,Self-pay,True,Surgery,0,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00776,21,Male,Hispanic,2023-10-31,2023-11-07,Diabetes,2,2,0,2,Home,Private,False,Oncology,0,Patient admitted for diabetes. Condition critical. No follow-up scheduled.
+PID00777,32,Male,White,2023-12-20,2023-12-23,Kidney Disease,0,5,0,6,Home,Medicare,False,Cardiology,0,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00778,59,Male,Other,2023-11-18,2023-11-21,Heart Attack,1,13,2,3,Transferred,Medicaid,True,ER,0,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00779,21,Female,Asian,2023-05-05,2023-05-08,Asthma,1,20,1,2,Transferred,Private,True,ICU,1,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00780,84,Male,Black,2023-02-22,2023-03-04,Heart Attack,1,8,1,7,AMA,Medicare,True,Oncology,0,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00781,82,Male,White,2023-12-23,2023-12-26,COVID-19,3,14,2,3,Rehab,Medicare,True,ER,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00782,36,Female,Hispanic,2023-06-04,2023-06-12,Hypertension,2,15,0,10,Home,Private,False,Surgery,0,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00783,28,Female,Black,2023-12-17,2023-12-18,Sepsis,1,11,0,0,Home,Self-pay,False,Surgery,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00784,34,Female,Hispanic,2023-11-04,2023-11-11,Asthma,1,1,4,5,Home,Private,True,Oncology,1,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00785,43,Male,Asian,2023-03-03,2023-03-09,COVID-19,5,3,5,9,Home,Self-pay,True,Surgery,1,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00786,57,Female,Other,2023-10-17,2023-10-21,Stroke,0,17,3,10,Transferred,Medicaid,False,Cardiology,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00787,54,Female,Black,2023-01-22,2023-01-30,CHF,5,19,5,10,AMA,Self-pay,True,Oncology,1,Patient admitted for chf. Condition critical. Follow-up required.
+PID00788,68,Male,Black,2023-06-27,2023-07-07,Sepsis,5,14,1,0,Expired,Medicaid,True,Surgery,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00789,88,Female,Asian,2023-09-30,2023-10-05,Hypertension,0,8,1,4,Rehab,Private,True,ICU,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00790,81,Female,White,2023-08-08,2023-08-16,Cancer,2,13,1,6,Home,Medicaid,True,Surgery,0,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00791,79,Female,Other,2023-12-05,2023-12-09,Sepsis,5,20,5,5,AMA,Medicare,False,Cardiology,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00792,69,Female,Black,2023-07-09,2023-07-18,Stroke,2,3,3,1,Expired,Medicaid,False,ER,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00793,28,Male,Other,2023-02-05,2023-02-09,Diabetes,5,5,4,10,AMA,Self-pay,True,ER,1,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00794,53,Female,Black,2023-09-17,2023-09-22,Cancer,4,9,5,3,Transferred,Self-pay,False,Surgery,1,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00795,54,Female,Other,2023-11-28,2023-12-06,Asthma,0,6,3,10,Expired,Self-pay,True,ER,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00796,20,Male,Hispanic,2023-06-24,2023-06-28,Cancer,5,2,0,1,AMA,Medicaid,True,Surgery,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00797,59,Female,Black,2023-01-07,2023-01-13,COPD,4,13,0,10,Transferred,Self-pay,True,Cardiology,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00798,83,Male,Other,2023-08-04,2023-08-14,Stroke,3,5,1,0,AMA,Self-pay,False,ER,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00799,41,Female,White,2023-09-08,2023-09-16,Heart Attack,4,8,2,2,AMA,Medicare,False,ICU,0,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00800,79,Male,Hispanic,2023-02-24,2023-03-04,COVID-19,1,1,1,2,Expired,Medicaid,False,Surgery,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00801,83,Male,Hispanic,2023-08-10,2023-08-15,Sepsis,5,20,2,6,Transferred,Medicare,False,ER,0,Patient admitted for sepsis. Condition critical. No follow-up scheduled.
+PID00802,30,Male,White,2023-07-05,2023-07-12,COPD,4,12,3,0,Home,Self-pay,False,Cardiology,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00803,33,Male,Other,2023-11-22,2023-12-01,Cancer,2,11,0,8,Rehab,Self-pay,True,Cardiology,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00804,79,Female,Asian,2023-08-24,2023-09-02,COPD,3,7,5,10,Expired,Self-pay,True,ICU,1,Patient admitted for copd. Condition stable. Follow-up required.
+PID00805,49,Male,White,2023-12-29,2024-01-05,Pneumonia,5,15,2,5,Transferred,Medicaid,False,Cardiology,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00806,54,Female,Other,2023-03-20,2023-03-23,Stroke,1,11,3,3,AMA,Private,False,Cardiology,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00807,56,Male,White,2023-08-11,2023-08-15,COVID-19,4,16,0,2,Transferred,Self-pay,False,ER,1,Patient admitted for covid-19. Condition critical. No follow-up scheduled.
+PID00808,24,Male,White,2023-04-01,2023-04-11,Kidney Disease,3,3,5,2,Rehab,Self-pay,True,Surgery,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00809,45,Male,Black,2023-09-25,2023-09-28,Diabetes,5,20,2,1,Rehab,Self-pay,False,Oncology,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00810,81,Female,Other,2023-11-30,2023-12-05,Cancer,3,14,1,1,Home,Self-pay,True,Cardiology,0,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00811,23,Male,Asian,2023-05-19,2023-05-20,Stroke,1,3,1,9,Home,Medicaid,True,Cardiology,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00812,61,Female,Black,2023-11-12,2023-11-20,Kidney Disease,4,1,1,4,Rehab,Private,False,Oncology,0,Patient admitted for kidney disease. Condition critical. No follow-up scheduled.
+PID00813,37,Female,White,2023-10-03,2023-10-09,Kidney Disease,3,15,3,8,Expired,Private,True,Cardiology,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00814,59,Female,White,2023-09-05,2023-09-14,Hypertension,3,1,1,1,Expired,Private,True,ER,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00815,58,Female,White,2023-08-27,2023-08-29,COVID-19,0,17,4,1,AMA,Self-pay,False,ER,0,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00816,33,Female,Other,2023-08-12,2023-08-21,COPD,3,2,0,5,Home,Self-pay,True,Oncology,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00817,51,Female,Other,2023-10-31,2023-11-02,Kidney Disease,0,20,3,9,AMA,Private,False,Cardiology,0,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00818,70,Female,Black,2023-05-18,2023-05-23,Pneumonia,4,6,5,1,Home,Private,True,Cardiology,1,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00819,57,Female,Asian,2023-06-15,2023-06-17,Stroke,5,8,1,3,Rehab,Self-pay,False,Surgery,0,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00820,42,Female,Black,2023-05-06,2023-05-09,CHF,5,16,0,5,Expired,Self-pay,False,Cardiology,0,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00821,82,Male,Hispanic,2023-02-14,2023-02-19,CHF,4,19,2,4,Expired,Medicare,True,ER,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00822,34,Male,White,2023-05-23,2023-05-31,Heart Attack,4,1,1,0,Rehab,Medicare,False,ICU,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00823,44,Male,White,2023-08-19,2023-08-28,Heart Attack,2,3,0,5,AMA,Medicare,True,ICU,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00824,36,Male,White,2023-05-05,2023-05-08,Cancer,4,3,4,0,AMA,Private,True,ICU,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00825,85,Male,Black,2023-08-26,2023-09-02,Heart Attack,3,5,2,2,Transferred,Medicaid,False,ICU,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00826,72,Female,Black,2023-10-19,2023-10-21,Asthma,5,12,4,9,Home,Self-pay,True,Cardiology,1,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00827,70,Female,White,2023-11-09,2023-11-13,COPD,1,12,5,4,AMA,Medicare,False,Cardiology,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00828,58,Female,Black,2023-12-09,2023-12-17,Asthma,5,20,0,9,Rehab,Medicaid,True,Surgery,1,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00829,70,Female,Other,2023-07-14,2023-07-20,Kidney Disease,0,13,4,4,AMA,Self-pay,True,Cardiology,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00830,89,Female,Other,2023-06-22,2023-06-23,Stroke,5,20,5,9,Expired,Medicaid,False,ICU,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00831,25,Female,Black,2023-01-15,2023-01-22,Cancer,2,9,0,5,Home,Private,True,Oncology,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00832,86,Female,White,2023-09-11,2023-09-12,Sepsis,4,7,0,9,Transferred,Private,True,Oncology,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00833,26,Male,Black,2023-06-16,2023-06-23,Kidney Disease,4,4,4,7,Home,Private,True,ER,1,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00834,70,Male,Black,2023-04-04,2023-04-13,COPD,5,19,0,4,Expired,Medicare,True,ER,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00835,61,Male,Black,2023-09-07,2023-09-13,CHF,1,19,1,10,Expired,Self-pay,True,Cardiology,1,Patient admitted for chf. Condition critical. Follow-up required.
+PID00836,83,Male,Hispanic,2023-04-19,2023-04-23,COVID-19,1,6,0,0,Expired,Private,True,Oncology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00837,34,Female,Other,2023-07-01,2023-07-08,Heart Attack,2,13,3,4,Expired,Medicare,True,ICU,0,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00838,48,Female,Asian,2023-05-13,2023-05-15,Hypertension,0,11,5,2,Rehab,Medicare,True,ICU,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00839,52,Female,Asian,2023-06-24,2023-06-30,Stroke,5,13,0,3,Transferred,Medicare,False,ICU,0,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00840,46,Male,Hispanic,2023-05-24,2023-05-28,Diabetes,4,13,3,7,Expired,Medicare,True,Cardiology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00841,55,Female,Black,2023-11-02,2023-11-03,COVID-19,5,20,0,6,Expired,Private,True,Cardiology,1,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00842,48,Female,Hispanic,2023-12-26,2024-01-01,Asthma,2,15,0,10,AMA,Medicare,False,Surgery,1,Patient admitted for asthma. Condition critical. No follow-up scheduled.
+PID00843,57,Female,Hispanic,2023-05-22,2023-05-24,Heart Attack,3,13,4,4,Transferred,Private,False,ICU,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00844,76,Male,White,2023-10-12,2023-10-18,Cancer,3,11,1,1,Home,Private,False,ICU,1,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00845,46,Female,Other,2023-01-06,2023-01-09,Asthma,2,19,5,5,Transferred,Medicare,True,Cardiology,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00846,74,Male,Asian,2023-09-22,2023-09-25,Stroke,4,8,1,10,Transferred,Private,False,Cardiology,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00847,52,Male,Black,2023-04-08,2023-04-09,Asthma,2,20,2,5,Transferred,Self-pay,False,Surgery,1,Patient admitted for asthma. Condition critical. No follow-up scheduled.
+PID00848,87,Male,Asian,2023-02-13,2023-02-18,Stroke,4,8,4,9,Expired,Self-pay,True,Surgery,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00849,85,Male,Asian,2023-05-04,2023-05-12,Asthma,1,10,4,9,Expired,Medicaid,True,ER,1,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00850,29,Female,Other,2023-07-28,2023-07-31,COVID-19,2,16,1,10,Rehab,Self-pay,False,Oncology,0,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00851,24,Male,Asian,2023-09-08,2023-09-16,Pneumonia,4,19,4,5,Home,Private,False,ICU,1,Patient admitted for pneumonia. Condition critical. No follow-up scheduled.
+PID00852,57,Male,Asian,2023-10-12,2023-10-20,COVID-19,2,11,1,8,AMA,Private,True,ICU,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00853,32,Female,Hispanic,2023-05-04,2023-05-14,Sepsis,2,13,4,10,Transferred,Self-pay,True,Surgery,1,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00854,50,Female,Other,2023-12-20,2023-12-21,Kidney Disease,4,9,0,7,Home,Medicare,True,Surgery,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00855,66,Male,White,2023-09-01,2023-09-03,Kidney Disease,4,20,1,7,Home,Medicare,True,ER,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00856,71,Female,Black,2023-11-27,2023-11-28,COPD,0,19,1,0,Rehab,Private,True,Oncology,1,Patient admitted for copd. Condition stable. Follow-up required.
+PID00857,75,Male,Asian,2023-12-31,2024-01-05,Heart Attack,2,16,3,4,AMA,Medicare,False,ER,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00858,34,Male,Black,2023-09-09,2023-09-13,COVID-19,3,7,4,6,Transferred,Medicaid,True,Oncology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00859,48,Male,White,2023-08-18,2023-08-21,COVID-19,2,19,4,5,AMA,Medicaid,True,ICU,1,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00860,27,Male,Black,2023-01-09,2023-01-18,Diabetes,2,12,1,4,Rehab,Self-pay,True,ER,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00861,24,Female,White,2023-02-17,2023-02-27,Diabetes,4,15,0,7,Expired,Self-pay,True,Surgery,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00862,48,Male,Hispanic,2023-05-31,2023-06-09,COPD,2,14,0,2,Home,Medicare,True,ER,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00863,66,Female,Asian,2023-04-24,2023-05-01,Hypertension,5,11,5,5,Transferred,Private,False,ER,0,Patient admitted for hypertension. Condition critical. No follow-up scheduled.
+PID00864,87,Female,White,2023-07-27,2023-07-29,Kidney Disease,2,10,0,4,Expired,Self-pay,True,ICU,0,Patient admitted for kidney disease. Condition critical. Follow-up required.
+PID00865,64,Female,Black,2023-12-21,2023-12-26,Hypertension,5,11,4,7,Rehab,Medicaid,False,Surgery,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00866,21,Female,Asian,2023-05-05,2023-05-09,Heart Attack,3,6,3,3,AMA,Self-pay,True,Surgery,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00867,46,Male,Hispanic,2023-06-06,2023-06-11,Stroke,4,2,1,7,Home,Self-pay,False,Cardiology,0,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00868,55,Female,Asian,2023-12-06,2023-12-08,Stroke,2,11,2,9,Transferred,Medicaid,False,Cardiology,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00869,55,Male,White,2023-10-25,2023-10-26,CHF,5,19,3,1,Expired,Private,True,Cardiology,1,Patient admitted for chf. Condition stable. Follow-up required.
+PID00870,45,Female,Hispanic,2023-07-08,2023-07-12,Asthma,5,6,2,8,Expired,Self-pay,True,ICU,0,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00871,62,Female,Black,2023-08-31,2023-09-07,Diabetes,5,14,3,8,Home,Self-pay,True,ER,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00872,46,Male,Hispanic,2023-10-11,2023-10-21,CHF,1,20,0,9,AMA,Self-pay,True,Surgery,0,Patient admitted for chf. Condition critical. Follow-up required.
+PID00873,88,Male,Hispanic,2023-09-29,2023-10-07,Sepsis,0,6,4,9,Rehab,Medicare,True,Surgery,1,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00874,39,Male,Other,2023-06-26,2023-06-28,COPD,3,17,2,5,AMA,Self-pay,False,ER,1,Patient admitted for copd. Condition critical. No follow-up scheduled.
+PID00875,30,Female,Hispanic,2023-08-06,2023-08-08,COPD,2,10,3,3,AMA,Medicaid,True,Surgery,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00876,57,Female,Hispanic,2023-10-09,2023-10-17,Stroke,1,1,4,3,AMA,Private,True,ER,1,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00877,25,Male,Asian,2023-06-19,2023-06-29,COVID-19,2,3,2,5,Home,Private,False,ICU,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00878,42,Male,Black,2023-06-30,2023-07-09,Kidney Disease,2,8,1,4,Home,Medicaid,True,ICU,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00879,66,Male,Asian,2023-12-26,2023-12-27,Hypertension,4,8,3,5,Rehab,Medicare,False,ICU,1,Patient admitted for hypertension. Condition critical. No follow-up scheduled.
+PID00880,65,Male,Asian,2023-08-21,2023-08-30,Diabetes,4,20,1,6,AMA,Medicaid,True,ER,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00881,31,Female,White,2023-05-19,2023-05-29,CHF,4,15,0,6,Home,Private,False,ER,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00882,32,Male,Asian,2023-06-06,2023-06-10,Hypertension,1,7,1,8,Rehab,Medicaid,True,Oncology,0,Patient admitted for hypertension. Condition critical. Follow-up required.
+PID00883,81,Male,Other,2023-05-09,2023-05-12,COVID-19,2,11,1,7,Rehab,Medicare,False,Surgery,1,Patient admitted for covid-19. Condition critical. No follow-up scheduled.
+PID00884,79,Male,Other,2023-04-29,2023-05-04,CHF,0,7,5,5,AMA,Private,False,Surgery,1,Patient admitted for chf. Condition critical. No follow-up scheduled.
+PID00885,62,Male,White,2023-03-03,2023-03-10,Asthma,3,4,3,5,Transferred,Medicare,True,Oncology,0,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00886,87,Female,Black,2023-04-09,2023-04-10,Sepsis,4,12,0,4,AMA,Medicaid,True,Oncology,0,Patient admitted for sepsis. Condition critical. Follow-up required.
+PID00887,24,Male,Black,2023-06-11,2023-06-21,Sepsis,4,6,1,0,Transferred,Self-pay,True,ICU,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00888,56,Female,Asian,2023-03-03,2023-03-09,Hypertension,2,14,4,8,Rehab,Medicaid,False,Oncology,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00889,50,Male,Asian,2023-10-02,2023-10-06,Hypertension,2,12,2,8,Home,Medicare,False,ER,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00890,28,Male,Asian,2023-12-20,2023-12-30,Hypertension,1,11,1,8,Expired,Medicaid,False,Cardiology,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00891,70,Female,Black,2023-04-05,2023-04-12,CHF,1,19,0,10,Rehab,Self-pay,True,ER,1,Patient admitted for chf. Condition stable. Follow-up required.
+PID00892,48,Male,Hispanic,2023-04-09,2023-04-12,Asthma,4,5,1,7,Home,Medicare,True,Oncology,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00893,59,Female,Other,2023-04-21,2023-04-23,Pneumonia,2,14,2,9,Rehab,Medicaid,False,Surgery,0,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00894,60,Female,Hispanic,2023-09-05,2023-09-14,Hypertension,0,16,0,2,AMA,Medicare,True,ER,1,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00895,30,Male,Hispanic,2023-05-22,2023-05-28,Kidney Disease,3,13,3,0,Transferred,Medicare,False,Surgery,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00896,42,Female,Black,2023-10-29,2023-10-31,Heart Attack,2,20,0,10,Rehab,Private,True,ER,1,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00897,20,Female,Hispanic,2023-09-26,2023-10-05,COVID-19,2,4,3,7,Home,Private,True,Surgery,0,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00898,65,Female,White,2023-11-02,2023-11-11,Heart Attack,5,11,0,6,AMA,Medicare,False,ER,0,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00899,40,Female,Asian,2023-05-25,2023-06-03,Diabetes,1,17,2,4,Expired,Medicaid,True,Surgery,1,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00900,55,Female,White,2023-02-21,2023-03-02,Diabetes,3,7,2,9,AMA,Medicaid,True,Cardiology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00901,73,Female,Other,2023-04-10,2023-04-19,COVID-19,4,14,0,6,Transferred,Medicaid,True,ICU,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00902,76,Female,Asian,2023-06-01,2023-06-02,CHF,2,11,1,9,AMA,Self-pay,True,ER,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00903,20,Female,Hispanic,2023-04-27,2023-05-04,COVID-19,4,9,2,3,Expired,Medicare,True,Cardiology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00904,82,Male,Other,2023-07-04,2023-07-12,Heart Attack,2,13,3,8,Home,Medicare,False,ICU,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00905,73,Male,Asian,2023-04-02,2023-04-03,Heart Attack,4,18,3,10,Rehab,Self-pay,True,ER,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00906,74,Female,Hispanic,2023-06-04,2023-06-11,Hypertension,3,11,4,9,Transferred,Medicare,False,Cardiology,1,Patient admitted for hypertension. Condition critical. No follow-up scheduled.
+PID00907,59,Male,White,2023-01-08,2023-01-14,Stroke,1,15,5,1,Expired,Medicare,True,Cardiology,1,Patient admitted for stroke. Condition critical. Follow-up required.
+PID00908,34,Female,Asian,2023-12-29,2024-01-03,COPD,3,19,5,8,Transferred,Self-pay,True,Cardiology,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00909,40,Female,Hispanic,2023-10-01,2023-10-02,Pneumonia,5,1,5,8,AMA,Private,False,Oncology,1,Patient admitted for pneumonia. Condition critical. No follow-up scheduled.
+PID00910,66,Male,White,2023-03-06,2023-03-12,Heart Attack,0,4,3,4,Transferred,Medicare,False,Surgery,0,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00911,72,Female,Other,2023-05-21,2023-05-23,Kidney Disease,1,14,4,10,Expired,Self-pay,True,ICU,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00912,28,Female,Other,2023-01-24,2023-01-30,COVID-19,3,14,5,0,Rehab,Medicaid,True,Surgery,0,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00913,71,Female,Other,2023-01-28,2023-02-01,Asthma,5,3,5,6,Rehab,Private,False,Surgery,1,Patient admitted for asthma. Condition critical. No follow-up scheduled.
+PID00914,76,Female,Other,2023-10-11,2023-10-13,Stroke,0,17,0,9,Transferred,Medicaid,False,Surgery,1,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00915,45,Male,Black,2023-05-30,2023-06-09,Heart Attack,5,3,0,9,Home,Medicare,False,Cardiology,1,Patient admitted for heart attack. Condition critical. No follow-up scheduled.
+PID00916,60,Female,Asian,2023-12-24,2023-12-30,COVID-19,2,16,0,3,Transferred,Private,False,Surgery,0,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00917,54,Female,Asian,2023-03-06,2023-03-09,Sepsis,2,14,1,8,AMA,Self-pay,True,Oncology,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00918,82,Female,Black,2023-11-23,2023-11-24,Stroke,4,20,5,5,Rehab,Medicare,True,ER,1,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00919,44,Male,Hispanic,2023-09-09,2023-09-15,CHF,1,13,1,2,Rehab,Self-pay,True,Cardiology,0,Patient admitted for chf. Condition critical. Follow-up required.
+PID00920,57,Female,Hispanic,2023-02-22,2023-03-03,Pneumonia,2,15,4,5,Rehab,Private,True,ICU,1,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00921,21,Male,Other,2023-01-07,2023-01-13,Cancer,5,14,3,9,Home,Medicaid,True,ER,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00922,26,Male,White,2023-10-21,2023-10-24,Cancer,1,19,5,5,Home,Medicare,False,ER,1,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00923,53,Female,Hispanic,2023-05-26,2023-06-03,Hypertension,2,6,3,4,Expired,Medicare,False,ER,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00924,36,Female,White,2023-08-29,2023-09-06,Hypertension,4,10,0,1,Transferred,Self-pay,False,Surgery,1,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00925,62,Male,Asian,2023-09-03,2023-09-06,CHF,3,15,5,9,Transferred,Private,True,Surgery,1,Patient admitted for chf. Condition critical. Follow-up required.
+PID00926,78,Female,White,2023-08-14,2023-08-17,Asthma,4,20,2,9,AMA,Self-pay,False,Cardiology,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00927,70,Male,Asian,2023-06-24,2023-06-26,Hypertension,0,6,1,1,Rehab,Private,True,Surgery,0,Patient admitted for hypertension. Condition critical. Follow-up required.
+PID00928,73,Male,Black,2023-04-05,2023-04-13,COPD,2,10,1,6,Home,Medicare,True,Surgery,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00929,43,Female,Black,2023-01-27,2023-01-28,Heart Attack,0,7,5,1,AMA,Private,True,Surgery,1,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00930,44,Female,Other,2023-05-10,2023-05-15,Pneumonia,0,17,0,5,AMA,Medicare,False,Cardiology,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00931,71,Male,Hispanic,2023-09-02,2023-09-06,COVID-19,5,18,1,4,Home,Private,True,Cardiology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00932,89,Male,Other,2023-02-28,2023-03-01,CHF,1,17,0,3,Transferred,Medicaid,True,Oncology,1,Patient admitted for chf. Condition stable. Follow-up required.
+PID00933,52,Male,Asian,2023-02-03,2023-02-07,Diabetes,5,9,4,6,Rehab,Private,False,Oncology,1,Patient admitted for diabetes. Condition critical. No follow-up scheduled.
+PID00934,68,Male,Other,2023-07-25,2023-07-26,COVID-19,2,10,3,7,Transferred,Medicaid,True,Oncology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00935,48,Female,White,2023-09-09,2023-09-15,COVID-19,0,10,2,3,AMA,Private,False,Oncology,0,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00936,82,Female,Asian,2023-02-07,2023-02-12,Sepsis,3,7,3,0,Rehab,Private,True,ER,0,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00937,41,Female,Black,2023-10-23,2023-11-01,CHF,0,16,3,0,Expired,Self-pay,False,ER,0,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00938,45,Female,Hispanic,2023-11-19,2023-11-26,CHF,3,18,4,0,AMA,Self-pay,True,Oncology,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00939,47,Female,Asian,2023-12-18,2023-12-27,Cancer,5,6,1,10,Transferred,Medicare,True,Oncology,0,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00940,68,Male,Asian,2023-01-28,2023-02-05,Kidney Disease,5,20,2,0,Transferred,Self-pay,False,ICU,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00941,68,Female,White,2023-03-19,2023-03-24,Asthma,1,1,1,4,Transferred,Private,True,ER,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00942,39,Female,Hispanic,2023-03-18,2023-03-19,Kidney Disease,0,1,5,3,Home,Self-pay,False,ICU,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00943,82,Female,Black,2023-10-16,2023-10-20,COPD,4,12,3,8,AMA,Private,True,ICU,0,Patient admitted for copd. Condition critical. Follow-up required.
+PID00944,80,Female,Asian,2023-06-05,2023-06-10,Diabetes,5,2,5,2,Rehab,Medicaid,False,Surgery,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00945,68,Female,Asian,2023-02-13,2023-02-19,COVID-19,5,4,0,6,Transferred,Private,True,Cardiology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00946,20,Male,White,2023-05-08,2023-05-09,Cancer,1,17,3,10,Transferred,Medicare,True,ER,1,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00947,32,Male,Other,2023-03-02,2023-03-08,Diabetes,3,4,1,7,Home,Medicaid,True,Oncology,0,Patient admitted for diabetes. Condition stable. Follow-up required.
+PID00948,70,Male,Black,2023-10-13,2023-10-18,COVID-19,1,11,3,5,Rehab,Medicare,False,Oncology,1,Patient admitted for covid-19. Condition critical. No follow-up scheduled.
+PID00949,75,Female,Hispanic,2023-08-02,2023-08-04,COPD,0,4,0,9,AMA,Medicare,False,Cardiology,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00950,81,Male,Asian,2023-11-07,2023-11-13,Kidney Disease,2,1,4,0,Expired,Medicare,False,ER,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00951,51,Male,Asian,2023-11-02,2023-11-09,CHF,2,7,5,7,Home,Self-pay,False,Oncology,1,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00952,49,Female,Black,2023-11-13,2023-11-20,Hypertension,3,18,5,9,AMA,Medicare,False,Oncology,0,Patient admitted for hypertension. Condition critical. No follow-up scheduled.
+PID00953,48,Female,Other,2023-04-26,2023-05-04,Hypertension,5,9,1,2,Expired,Medicaid,True,Surgery,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00954,68,Female,Asian,2023-09-25,2023-10-02,Heart Attack,3,3,3,7,Transferred,Private,True,ICU,0,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00955,64,Male,Black,2023-07-14,2023-07-20,Stroke,5,8,1,3,Transferred,Medicare,True,Oncology,0,Patient admitted for stroke. Condition stable. Follow-up required.
+PID00956,49,Male,White,2023-08-19,2023-08-22,Sepsis,5,19,4,7,Rehab,Medicaid,True,ER,1,Patient admitted for sepsis. Condition stable. Follow-up required.
+PID00957,35,Female,Other,2023-08-15,2023-08-23,Asthma,2,4,3,10,Expired,Medicare,True,Cardiology,0,Patient admitted for asthma. Condition stable. Follow-up required.
+PID00958,59,Female,Hispanic,2023-06-02,2023-06-10,COPD,3,18,3,0,Transferred,Private,False,Surgery,1,Patient admitted for copd. Condition critical. No follow-up scheduled.
+PID00959,38,Male,Asian,2023-10-29,2023-11-04,Sepsis,1,20,1,2,Transferred,Medicaid,True,ER,0,Patient admitted for sepsis. Condition critical. Follow-up required.
+PID00960,37,Male,Black,2023-08-08,2023-08-17,Heart Attack,5,11,1,5,Rehab,Medicaid,False,Surgery,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00961,20,Female,White,2023-06-06,2023-06-11,Heart Attack,4,14,0,8,AMA,Private,True,ICU,0,Patient admitted for heart attack. Condition stable. Follow-up required.
+PID00962,66,Female,Hispanic,2023-10-19,2023-10-21,Asthma,4,18,4,1,Transferred,Medicaid,False,Oncology,1,Patient admitted for asthma. Condition stable. No follow-up scheduled.
+PID00963,85,Male,Black,2023-11-14,2023-11-21,COVID-19,1,16,0,10,Home,Private,False,ER,1,Patient admitted for covid-19. Condition stable. No follow-up scheduled.
+PID00964,57,Female,Black,2023-01-31,2023-02-02,Sepsis,4,3,5,0,Home,Medicaid,False,Cardiology,0,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00965,70,Male,Hispanic,2023-11-09,2023-11-16,Kidney Disease,0,15,3,9,AMA,Medicaid,True,ICU,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00966,82,Male,White,2023-02-20,2023-03-02,Asthma,5,4,1,2,Expired,Private,True,ICU,0,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00967,23,Male,White,2023-04-17,2023-04-20,Heart Attack,1,5,3,3,Rehab,Private,True,Surgery,0,Patient admitted for heart attack. Condition critical. Follow-up required.
+PID00968,20,Male,Other,2023-11-17,2023-11-26,Kidney Disease,3,17,3,10,Home,Medicaid,True,ICU,0,Patient admitted for kidney disease. Condition stable. Follow-up required.
+PID00969,27,Female,Asian,2023-04-19,2023-04-24,CHF,5,7,2,4,Home,Medicaid,False,ER,0,Patient admitted for chf. Condition stable. No follow-up scheduled.
+PID00970,48,Female,Hispanic,2023-05-16,2023-05-22,Cancer,1,16,5,2,AMA,Private,False,Surgery,0,Patient admitted for cancer. Condition stable. No follow-up scheduled.
+PID00971,74,Male,Hispanic,2023-12-05,2023-12-07,Kidney Disease,2,14,2,9,Expired,Self-pay,False,ICU,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00972,22,Male,Hispanic,2023-02-11,2023-02-13,COVID-19,3,16,3,10,Expired,Private,False,Cardiology,1,Patient admitted for covid-19. Condition critical. No follow-up scheduled.
+PID00973,51,Male,White,2023-03-22,2023-03-28,Hypertension,2,7,1,1,AMA,Medicaid,True,ER,0,Patient admitted for hypertension. Condition stable. Follow-up required.
+PID00974,29,Male,Asian,2023-05-03,2023-05-08,Sepsis,5,9,3,1,Home,Medicaid,False,Cardiology,0,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00975,53,Male,Other,2023-03-30,2023-04-04,COVID-19,3,4,5,6,Rehab,Medicaid,True,Cardiology,1,Patient admitted for covid-19. Condition critical. Follow-up required.
+PID00976,74,Female,Black,2023-10-10,2023-10-18,Stroke,4,11,2,8,Home,Private,False,Surgery,1,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00977,51,Female,Black,2023-02-08,2023-02-18,Pneumonia,1,2,1,9,Expired,Medicaid,False,Oncology,0,Patient admitted for pneumonia. Condition critical. No follow-up scheduled.
+PID00978,69,Female,Hispanic,2023-03-22,2023-03-29,Heart Attack,5,12,3,1,Home,Self-pay,False,Surgery,1,Patient admitted for heart attack. Condition stable. No follow-up scheduled.
+PID00979,26,Female,Asian,2023-01-02,2023-01-05,Asthma,0,12,4,6,Rehab,Medicare,True,ER,1,Patient admitted for asthma. Condition critical. Follow-up required.
+PID00980,27,Male,White,2023-07-29,2023-08-06,COPD,3,4,5,6,Transferred,Self-pay,True,ER,1,Patient admitted for copd. Condition critical. Follow-up required.
+PID00981,84,Male,Asian,2023-08-19,2023-08-25,Stroke,3,18,5,10,Home,Private,False,Surgery,0,Patient admitted for stroke. Condition stable. No follow-up scheduled.
+PID00982,76,Male,Asian,2023-12-19,2023-12-27,Hypertension,5,7,4,6,AMA,Medicaid,False,Oncology,0,Patient admitted for hypertension. Condition stable. No follow-up scheduled.
+PID00983,86,Male,White,2023-11-01,2023-11-02,Kidney Disease,5,1,3,2,Transferred,Private,False,Surgery,1,Patient admitted for kidney disease. Condition stable. No follow-up scheduled.
+PID00984,78,Male,Hispanic,2023-08-29,2023-09-04,Cancer,2,13,5,6,AMA,Medicare,True,ER,1,Patient admitted for cancer. Condition stable. Follow-up required.
+PID00985,73,Female,Asian,2023-05-30,2023-06-09,COVID-19,4,6,1,0,AMA,Private,True,Oncology,0,Patient admitted for covid-19. Condition stable. Follow-up required.
+PID00986,86,Male,Black,2023-01-17,2023-01-24,CHF,2,6,3,9,AMA,Medicaid,True,ER,0,Patient admitted for chf. Condition stable. Follow-up required.
+PID00987,70,Female,White,2023-04-29,2023-05-04,Pneumonia,2,12,3,0,Home,Medicare,False,Oncology,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00988,27,Female,Other,2023-05-28,2023-05-29,Diabetes,4,8,2,4,Expired,Medicare,True,Oncology,0,Patient admitted for diabetes. Condition critical. Follow-up required.
+PID00989,53,Female,Hispanic,2023-12-28,2023-12-30,Stroke,0,19,5,1,Transferred,Medicaid,False,Surgery,0,Patient admitted for stroke. Condition critical. No follow-up scheduled.
+PID00990,54,Female,White,2023-05-25,2023-06-01,Cancer,2,5,5,8,Rehab,Medicaid,True,Surgery,0,Patient admitted for cancer. Condition critical. Follow-up required.
+PID00991,51,Male,Other,2023-12-26,2024-01-01,Diabetes,2,18,4,6,Expired,Medicaid,False,Surgery,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00992,65,Female,Other,2023-08-21,2023-08-30,Pneumonia,3,5,2,3,Home,Private,False,Oncology,1,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00993,35,Female,Asian,2023-02-06,2023-02-09,COPD,4,10,2,3,AMA,Self-pay,True,Oncology,0,Patient admitted for copd. Condition stable. Follow-up required.
+PID00994,87,Female,Asian,2023-12-18,2023-12-19,COPD,1,1,5,1,Rehab,Private,False,ER,1,Patient admitted for copd. Condition stable. No follow-up scheduled.
+PID00995,56,Male,Asian,2023-04-30,2023-05-03,Sepsis,0,10,3,4,Transferred,Private,False,Cardiology,1,Patient admitted for sepsis. Condition stable. No follow-up scheduled.
+PID00996,73,Male,White,2023-05-16,2023-05-26,Pneumonia,0,5,2,3,Expired,Self-pay,False,Surgery,0,Patient admitted for pneumonia. Condition stable. No follow-up scheduled.
+PID00997,33,Male,White,2023-11-17,2023-11-25,Pneumonia,4,12,4,0,Expired,Medicaid,True,ER,1,Patient admitted for pneumonia. Condition stable. Follow-up required.
+PID00998,74,Female,Hispanic,2023-10-29,2023-10-30,Diabetes,5,7,2,7,Rehab,Medicaid,False,ER,1,Patient admitted for diabetes. Condition stable. No follow-up scheduled.
+PID00999,67,Female,Asian,2023-12-05,2023-12-08,Cancer,5,9,4,2,Home,Self-pay,True,ICU,1,Patient admitted for cancer. Condition stable. Follow-up required.
+PID01000,26,Male,Other,2023-04-12,2023-04-14,COVID-19,3,12,2,5,Transferred,Self-pay,True,Surgery,0,Patient admitted for covid-19. Condition stable. Follow-up required.
