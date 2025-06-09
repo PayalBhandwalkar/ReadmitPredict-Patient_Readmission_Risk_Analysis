@@ -97,7 +97,7 @@ An interactive Tableau dashboard was created to help healthcare providers:
 
 This project was inspired by the **Singapore General Hospital Bed Management System** case study from Harvard Business School, which highlighted the critical importance of proactive patient flow and resource planning in healthcare systems.
 
-You can read my case study blog here: [📖 Singapore Health System Case Study Blog](#) *(https://medium.com/@bhandwalkar.payal2001/beyond-the-bed-count-a-data-driven-approach-to-hospital-bed-management-at-singapore-general-0758123f49cf)*
+You can read my case study blog here: [📖 [Singapore Health System Case Study Blog](https://medium.com/@bhandwalkar.payal2001/beyond-the-bed-count-a-data-driven-approach-to-hospital-bed-management-at-singapore-general-0758123f49cf)](#) 
 
 Thanks also to healthcare data simulation resources and open-source medical ML literature that helped shape this project.
 
