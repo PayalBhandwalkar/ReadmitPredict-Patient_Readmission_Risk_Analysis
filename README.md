@@ -50,7 +50,7 @@ An interactive Tableau dashboard was created to help healthcare providers:
 - Visualize demographic and clinical risk distributions
 - Anticipate bed demand based on urgency and readmission cycles
 
-> [🔗 Link to Tableau Public Dashboard](#) *(Add your actual link)*
+> [🔗 Link to Tableau Public Dashboard](#) 
 
 ---
 
@@ -93,8 +93,6 @@ An interactive Tableau dashboard was created to help healthcare providers:
 
 ## 🤝 Acknowledgements
 
-## 🤝 Acknowledgements
-
 This project was inspired by the **Singapore General Hospital Bed Management System** case study from Harvard Business School, which highlighted the critical importance of proactive patient flow and resource planning in healthcare systems.
 
 You can read my case study blog here: [📖 [Singapore Health System Case Study Blog](https://medium.com/@bhandwalkar.payal2001/beyond-the-bed-count-a-data-driven-approach-to-hospital-bed-management-at-singapore-general-0758123f49cf)]
@@ -102,11 +100,4 @@ You can read my case study blog here: [📖 [Singapore Health System Case Study 
 Thanks also to healthcare data simulation resources and open-source medical ML literature that helped shape this project.
 
 
----
-
-## 📬 Contact
-
-**Payal Bhandwalkar**  
-📧 Email: your.email@example.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)  
 
